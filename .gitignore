@@ -1,0 +1,37 @@
+node_modules/
+dist/
+.vite/
+*.pyc
+__pycache__/
+.DS_Store
+**/.DS_Store
+.playwright-mcp/
+dashboard-*.png
+test-*.png
+*.output
+
+# Internal/proposal documents
+docs/proposal_internal_detailed.md
+docs/proposal_mts_executive.md
+
+# Raw scrape outputs (large, reproducible)
+spirki_transport_raw.json
+spirki_transport.geojson
+spirki_with_inspectors.json
+avtogari_jp_gari_raw.json
+avtogari_jp_gari.geojson
+osm_bus_stops_bg.json
+comparison_matches.json
+comparison_no_match.json
+comparison_deviated.json
+likely_coordinate_edits.json
+feb2026_edits.json
+scrape_transport.py
+spirki_monthly_stats.csv
+
+# Raw GRAO population files (large, sensitive)
+data/grao_population_2024.txt
+data/grao_population_2026_03.txt
+data/grao_population_2026_03_utf8.txt
+data/settlements_loc_yurukov.csv
+data/settlements_yurukov.csv
