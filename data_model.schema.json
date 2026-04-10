@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ahelia:byala-karta-ot:transport-infrastructure:v1",
+  "title": "BDP GIS Cloud Transport Infrastructure Data Model",
+  "description": "Reverse-engineered schema for Bulgarian Road Safety (БДП) municipal transport stop inspection data, hosted on GIS Cloud. Inferred from 10,284 stop records (layer 6542284) and 453 station records (layer 6542289). Each field includes a _confidence score (1-100) and _inference note.",
+  "version": "1.0.0",
+  "inferred_date": "2026-04-10",
+  "source": {
+    "portal": "https://bdp.giscloud.com/",
+    "api_base": "https://api.giscloud.com/1",
+    "map_id": 2674312,
+    "layers": {
+      "spirki": {
+        "layer_id": 6542284,
+        "name": "СПИРКИ НА ГРАДСКИ / МЕЖДУГРАДСКИ ТРАНСПОРТ",
+        "source_table": "spirki_26022024",
+        "record_count": 10284,
+        "geometry_type": "Point",
+        "crs": "EPSG:3857"
+      },
+      "avtogari": {
+        "layer_id": 6542289,
+        "name": "АВТОГАРИ / ЖП ГАРИ",
+        "source_table": "avtogari_jpgari",
+        "record_count": 453,
+        "geometry_type": "Point",
+        "crs": "EPSG:3857"
+      }
+    }
+  },
+  "definitions": {
+    "giscloud_envelope": {
+      "type": "object",
+      "description": "Platform-managed wrapper for every GIS Cloud feature record",
+      "properties": {
+        "__id": {
+          "type": "integer",
+          "description": "Primary key. Auto-incrementing surrogate key assigned by GIS Cloud",
+          "_confidence": 95,
+          "_inference": "Unique across all records, not strictly sequential — shared sequence or gaps from deletions"
+        },
+        "__owner": {
+          "type": ["integer", "null"],
+          "description": "Foreign key to GIS Cloud user account. Null for bulk-imported records (67.5%)",
+          "_confidence": 90,
+          "_inference": "Maps 1:1 to user_name in most cases. Null indicates batch/admin import, not field app submission"
+        },
+        "__created": {
+          "type": "integer",
+          "description": "Record creation timestamp (Unix epoch, UTC)",
+          "_confidence": 98,
+          "_inference": "Present on all records. Represents database persistence time, not physical inspection date"
+        },
+        "__modified": {
+          "type": "integer",
+          "description": "Last modification timestamp (Unix epoch, UTC). Equals __created for 46.1% of records (never edited)",
+          "_confidence": 98,
+          "_inference": "Changed on any attribute or geometry update. Equal to __created means untouched since creation"
+        },
+        "__geometry": {
+          "type": "object",
+          "description": "Spatial geometry in EPSG:3857 (Web Mercator). Authoritative coordinate source — longitude/latitude attribute fields are vestigial zeros",
+          "_confidence": 97,
+          "_inference": "GeoJSON Point. 10,280/10,284 records have valid geometry. 4 records lack coordinates",
+          "properties": {
+            "type": { "const": "Point" },
+            "coordinates": {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "[x, y] in EPSG:3857 meters"
+            }
+          }
+        },
+        "__xmin": { "type": ["number", "null"], "description": "Bounding box west (equals __xmax for points)", "_confidence": 99 },
+        "__xmax": { "type": ["number", "null"], "description": "Bounding box east", "_confidence": 99 },
+        "__ymin": { "type": ["number", "null"], "description": "Bounding box south (equals __ymax for points)", "_confidence": 99 },
+        "__ymax": { "type": ["number", "null"], "description": "Bounding box north", "_confidence": 99 }
+      },
+      "required": ["__id", "__created", "__modified"]
+    },
+    "administrative_location": {
+      "type": "object",
+      "description": "Bulgarian administrative hierarchy: област → община → населено място",
+      "properties": {
+        "oblast": {
+          "type": "string",
+          "description": "Administrative region (област). One of Bulgaria's 28 oblasts. Lookup value, not free text",
+          "enum": [
+            "Благоевград", "Бургас", "Варна", "Велико Търново", "Видин", "Враца",
+            "Габрово", "Добрич", "Кърджали", "Кюстендил", "Ловеч", "Монтана",
+            "Пазарджик", "Перник", "Плевен", "Пловдив", "Разград", "Русе",
+            "Силистра", "Сливен", "Смолян", "София", "София-град", "Софийска",
+            "Стара Загора", "Търговище", "Хасково", "Шумен", "Ямбол"
+          ],
+          "_confidence": 99,
+          "_inference": "100% populated, exactly matches Bulgaria's 28 oblasts. 'Софийска' appears in avtogari layer as variant of 'София'"
+        },
+        "municipal": {
+          "type": "string",
+          "description": "Municipality (община). Strict child of oblast — each belongs to exactly one oblast",
+          "_confidence": 97,
+          "_inference": "100% populated, 179 unique values. One name collision: 'Бяла' exists in both Варна and Русе oblasts (correct — two distinct municipalities)"
+        },
+        "city_vila": {
+          "type": ["string", "null"],
+          "description": "Settlement name (населено място). Free-text with inconsistent formatting (prefixes 'с.', 'гр.', district qualifiers)",
+          "_confidence": 92,
+          "_inference": "96.3% populated, 748 unique values. Not a strict lookup — entered by inspectors with varying conventions"
+        }
+      },
+      "required": ["oblast", "municipal"]
+    },
+    "inspection_metadata": {
+      "type": "object",
+      "description": "Fields recording who performed the inspection, when, and with what device",
+      "properties": {
+        "date1": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "Inspection date (ISO 8601). When the physical site visit occurred. Distinct from __created (database save time)",
+          "_confidence": 95,
+          "_inference": "77.1% populated, 116 unique dates. Range: 2024-05-01 to 2025-07-04"
+        },
+        "inspector1": {
+          "type": ["string", "null"],
+          "description": "Primary inspector name. Free-text — no validation against user directory. Contains person names, initials, institution names, and data quality issues (PDF JSON leaks, joke entries)",
+          "_confidence": 92,
+          "_inference": "77.1% populated, 388 unique values. Independent of user_name — multiple inspectors share one account"
+        },
+        "inspector2": {
+          "type": ["string", "null"],
+          "description": "Secondary inspector name. Effectively unused — inspections are single-person",
+          "_confidence": 88,
+          "_inference": "0.3% populated (29 records in spirki, 0 in avtogari). Values are initials or 'не'"
+        },
+        "user_name": {
+          "type": ["string", "null"],
+          "description": "GIS Cloud account username. Represents organizational account (municipality), not individual inspector. Convention: {municipality}_municipality",
+          "_confidence": 93,
+          "_inference": "77.1% populated, 240 unique. 231/240 tied to single municipality. Exception: 'sars_gov' spans 55 municipalities (central SARS account)"
+        },
+        "device_id": {
+          "type": ["string", "null"],
+          "description": "Android device hex identifier from GIS Cloud MDC app. Only populated for mobile field captures",
+          "_confidence": 85,
+          "_inference": "7.5% populated, 99 unique hex strings. Some records have PDF JSON leaked into this field (form mapping bug)"
+        },
+        "accuracy": {
+          "type": ["number", "null"],
+          "description": "GPS accuracy in meters at capture time. 0 = manual screen placement, 3-10 = typical smartphone GPS, 90 = poor fix",
+          "_confidence": 82,
+          "_inference": "69.4% populated. Mostly 0 (manual) or 3.9-9.6 (auto GPS). Auto-recorded by MDC app, not user-entered"
+        },
+        "speed": {
+          "type": ["integer", "null"],
+          "description": "Speed at GPS capture time. 0 = stationary. Non-zero suggests capture from moving vehicle",
+          "_confidence": 75,
+          "_inference": "68.6% populated. Values: 0,1,2,7,8,9,40. Units unclear (km/h or m/s). Auto-recorded by GPS"
+        }
+      }
+    },
+    "yes_no_enum": {
+      "type": "string",
+      "enum": ["ДА", "НЕ"],
+      "description": "Bulgarian yes/no enum. ДА=yes, НЕ=no"
+    }
+  },
+  "oneOf": [
+    {
+      "title": "TransportStop",
+      "description": "СПИРКИ НА ГРАДСКИ / МЕЖДУГРАДСКИ ТРАНСПОРТ — individual bus stop on the road network",
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/definitions/giscloud_envelope" }
+      ],
+      "properties": {
+        "data": {
+          "type": "object",
+          "allOf": [
+            { "$ref": "#/definitions/administrative_location" },
+            { "$ref": "#/definitions/inspection_metadata" }
+          ],
+          "properties": {
+            "road_n": {
+              "type": ["string", "null"],
+              "description": "Street/road name. Free-text: street names, road numbers, stop names, landmarks",
+              "_confidence": 90,
+              "_inference": "87.4% populated, 2757 unique values. High cardinality confirms free-text entry"
+            },
+            "road_t": {
+              "type": "string",
+              "enum": ["улица", "път"],
+              "description": "Road type. 'улица' (street, 85.2%) = urban stop, 'път' (road, 14.8%) = intercity stop. This is the градски/междуградски distinction",
+              "_confidence": 97,
+              "_inference": "100% populated, exactly 2 values. Core classifier for the layer"
+            },
+            "element_kod": {
+              "type": ["string", "null"],
+              "pattern": "^[0-9]+$",
+              "description": "Stop code from national register or municipal inventory. Numeric string, near-unique (1 duplicate: '487')",
+              "_confidence": 80,
+              "_inference": "67.5% populated, 6942/6943 unique. Only on inspected records — codes assigned during/after inspection"
+            },
+            "djob": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has bus bay / widening (уширане/джоб)? Dedicated pull-in area separate from traffic lane",
+              "_confidence": 90,
+              "_inference": "77.1% populated. All-or-nothing with other inspection fields"
+            },
+            "ogradni": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has fencing/barriers (огради)? Protective fencing at the stop",
+              "_confidence": 88
+            },
+            "buferni_t": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has buffer bodies (буферни тела)? Physical crash barriers or bollards protecting passengers",
+              "_confidence": 85
+            },
+            "osvetyavan": {
+              "type": ["string", "null"],
+              "enum": ["ДА", "НЕ", "да"],
+              "description": "Has lighting (осветление)? One record uses lowercase 'да' — data entry inconsistency",
+              "_confidence": 93,
+              "_inference": "77.1% populated. The lowercase variant confirms no input normalization on this field"
+            },
+            "znaci": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has road signs (пътни знаци)? Proper signage marking the stop for drivers",
+              "_confidence": 90
+            },
+            "class_str": {
+              "type": ["string", "null"],
+              "description": "VESTIGIAL. Unknown classifier, possibly road width class. 0.3% populated. Abandoned field",
+              "_confidence": 60,
+              "_inference": "32/10284 non-null. Values: 'до 8м.', 'не', 'Васил Левски' (misplaced street name). Planned but unused"
+            },
+            "foto1": {
+              "type": ["string", "null"],
+              "description": "Photo attachment reference. ___json[...] wrapper with GIS Cloud file metadata (pathname, rid, lid, fid). Photos on asset server",
+              "_confidence": 90,
+              "_inference": "0.2% populated (25 records). Form supports photos but inspectors rarely attach them"
+            },
+            "foto2": {
+              "type": ["string", "null"],
+              "description": "Second photo attachment. Effectively unused (2 records, both 'не')",
+              "_confidence": 92
+            },
+            "longitude": {
+              "type": ["integer", "null"],
+              "description": "VESTIGIAL. Always 0. Actual coordinates in __geometry. Form field exists but app ignores it",
+              "_confidence": 95,
+              "_inference": "67.5% populated, all values are 0"
+            },
+            "latitude": {
+              "type": ["integer", "null"],
+              "description": "VESTIGIAL. Always 0. Same as longitude — actual coords in __geometry",
+              "_confidence": 95
+            }
+          },
+          "required": ["oblast", "municipal", "road_t"],
+          "_lifecycle": {
+            "description": "Records exist in exactly one of two states. Zero partial records exist — inspection is all-or-nothing",
+            "_confidence": 98,
+            "states": {
+              "uninspected": {
+                "count": 2352,
+                "percentage": 22.9,
+                "populated_fields": ["oblast", "municipal", "road_t", "__geometry"],
+                "null_fields": ["djob", "ogradni", "buferni_t", "osvetyavan", "znaci", "inspector1", "date1", "user_name"]
+              },
+              "inspected": {
+                "count": 7932,
+                "percentage": 77.1,
+                "populated_fields": "all inspection fields simultaneously"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "TransportStation",
+      "description": "АВТОГАРИ / ЖП ГАРИ — bus stations and railway stations",
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/definitions/giscloud_envelope" }
+      ],
+      "properties": {
+        "data": {
+          "type": "object",
+          "allOf": [
+            { "$ref": "#/definitions/administrative_location" },
+            { "$ref": "#/definitions/inspection_metadata" }
+          ],
+          "properties": {
+            "tip_element": {
+              "type": "string",
+              "enum": ["Автогара", "ЖП гара"],
+              "description": "Station type. Bus station vs railway station",
+              "_confidence": 99,
+              "_inference": "100% populated, exactly 2 values"
+            },
+            "name": {
+              "type": ["string", "null"],
+              "description": "Station name (e.g., 'Автогара Подуяне', 'ЖП гара Пловдив'). More structured than road_n in stops layer",
+              "_confidence": 95,
+              "_inference": "91.8% populated, 182 unique values"
+            },
+            "element_cod": {
+              "type": ["string", "null"],
+              "description": "Station code. Note spelling difference from spirki 'element_kod' — likely a typo in schema definition",
+              "_confidence": 85,
+              "_inference": "57.8% populated, 200 unique values. No cross-reference to spirki element_kod"
+            },
+            "parkingi": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has parking facilities?",
+              "_confidence": 90
+            },
+            "znaci_mark": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has signs/markings? Equivalent to 'znaci' in stops layer, different field name",
+              "_confidence": 85
+            },
+            "osvetyavan": {
+              "type": ["string", "null"],
+              "$ref": "#/definitions/yes_no_enum",
+              "description": "Has lighting? Shared with stops layer",
+              "_confidence": 93
+            },
+            "data_2": {
+              "type": "null",
+              "description": "UNUSED. Reserved field, never populated. Possibly planned for secondary date",
+              "_confidence": 50
+            },
+            "time": {
+              "type": "null",
+              "description": "UNUSED. Possibly planned for inspection time or station operating hours",
+              "_confidence": 45
+            }
+          },
+          "required": ["oblast", "municipal", "tip_element"]
+        }
+      }
+    }
+  ],
+  "relationships": {
+    "administrative_hierarchy": {
+      "type": "one_to_many_chain",
+      "chain": ["oblast", "municipal", "city_vila"],
+      "description": "област (28) → община (179) → населено място (748). Oblast→Municipal is strict 1:N. Municipal→City is loose 1:N (free-text, not FK)",
+      "_confidence": 95
+    },
+    "user_ownership": {
+      "type": "mapping",
+      "from": "__owner",
+      "to": "user_name",
+      "cardinality": "1:1 (predominantly)",
+      "description": "GIS Cloud account ID maps to organizational username. 187 owners → 240 usernames (some owners used multiple accounts)",
+      "_confidence": 82
+    },
+    "user_municipality": {
+      "type": "mapping",
+      "from": "user_name",
+      "to": "municipal",
+      "cardinality": "N:1 (predominantly)",
+      "description": "231/240 users tied to single municipality. 9 exceptions: 'sars_gov' (55 municipalities, central SARS), 'sars2' (7), and 7 cross-boundary municipal accounts",
+      "_confidence": 90
+    },
+    "cross_layer": {
+      "type": "none",
+      "description": "Spirki and avtogari share a map and base schema but have no FK relationship. element_kod/element_cod values do not cross-reference",
+      "_confidence": 88
+    }
+  },
+  "data_quality_issues": [
+    {
+      "issue": "PDF JSON leaked into text fields",
+      "affected_fields": ["inspector1", "device_id"],
+      "scope": "~90 records across both fields",
+      "cause": "Mobile form file-upload widget writing ___json[...] to text fields instead of attachment fields",
+      "_confidence": 95
+    },
+    {
+      "issue": "Vestigial coordinate fields",
+      "affected_fields": ["longitude", "latitude"],
+      "scope": "6942 records (all zeros)",
+      "cause": "Form schema includes lat/lon but MDC app writes directly to __geometry",
+      "_confidence": 99
+    },
+    {
+      "issue": "Inconsistent enum casing",
+      "affected_fields": ["osvetyavan"],
+      "scope": "1 record ('да' instead of 'ДА')",
+      "cause": "No input normalization on enum field",
+      "_confidence": 98
+    },
+    {
+      "issue": "Inspector name inconsistency",
+      "affected_fields": ["inspector1"],
+      "scope": "~50 inspector identities affected",
+      "cause": "Free-text entry: casing variants, trailing spaces, abbreviation differences for same person",
+      "_confidence": 92
+    },
+    {
+      "issue": "Field name typo between layers",
+      "affected_fields": ["element_kod (spirki)", "element_cod (avtogari)"],
+      "scope": "Schema-level",
+      "cause": "Likely typo during schema definition — same semantic field with different spelling",
+      "_confidence": 85
+    },
+    {
+      "issue": "Test/joke data",
+      "affected_fields": ["inspector1"],
+      "scope": "5 records",
+      "examples": ["Мечо Пух", "Мики Маус", "Кристофър Робин"],
+      "cause": "Testing or data entry play",
+      "_confidence": 97
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бяла карта на ОТ в България</title>
+  <meta name="description" content="Национална бяла карта на обществения транспорт - покритие на 5 256 населени места" />
+  <meta property="og:title" content="Бяла карта на ОТ в България" />
+  <meta property="og:description" content="63.1% от населените места в България нямат автобусна спирка" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗺️</text></svg>" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="top-header">
+      <h1>Бяла Карта на Обществения Транспорт</h1>
+    </header>
+    <div id="main-content">
+    <div id="sidebar">
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">Национални данни</h2>
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Затвори панела">&times;</button>
+      </div>
+
+      <section class="stats-section" aria-label="Национални статистики">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-total">--</span>
+            <span class="stat-label">населени места</span>
+          </div>
+          <div class="stat-card stat-green">
+            <span class="stat-value" id="stat-with-pt">--</span>
+            <span class="stat-label">с ОТ достъп</span>
+          </div>
+          <div class="stat-card stat-red">
+            <span class="stat-value" id="stat-without-pt">--</span>
+            <span class="stat-label">без ОТ достъп</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-pct-settlements">--</span>
+            <span class="stat-label">% покритие (н.м.)</span>
+          </div>
+          <div class="stat-card stat-green">
+            <span class="stat-value" id="stat-pop-with">--</span>
+            <span class="stat-label">население с ОТ</span>
+          </div>
+          <div class="stat-card stat-red">
+            <span class="stat-value" id="stat-pop-without">--</span>
+            <span class="stat-label">население без ОТ</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="filters-section" aria-label="Филтри">
+        <h2>Филтри</h2>
+        <div class="filter-group">
+          <label for="filter-oblast">Област</label>
+          <select id="filter-oblast" aria-label="Филтър по област">
+            <option value="">Всички области</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-municipality">Община</label>
+          <select id="filter-municipality" aria-label="Филтър по община" disabled>
+            <option value="">Всички общини</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>ОТ статус</label>
+          <div class="radio-group">
+            <label><input type="radio" name="pt-status" value="all" checked /> Всички</label>
+            <label><input type="radio" name="pt-status" value="with" /> С достъп</label>
+            <label><input type="radio" name="pt-status" value="without" /> Без достъп</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>Тип</label>
+          <div class="radio-group">
+            <label><input type="radio" name="type-filter" value="all" checked /> Всички</label>
+            <label><input type="radio" name="type-filter" value="city" /> Градове</label>
+            <label><input type="radio" name="type-filter" value="village" /> Села</label>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label for="search-input">Търсене</label>
+          <div class="search-wrapper">
+            <input type="text" id="search-input" placeholder="Име на населено място..." autocomplete="off" aria-label="Търсене на населено място" />
+            <div id="search-results" class="search-results" hidden></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="layers-section" aria-label="Слоеве">
+        <h2>Слоеве</h2>
+        <div class="layer-toggles">
+          <label><input type="checkbox" id="layer-settlements" checked /> Населени места</label>
+          <label><input type="checkbox" id="layer-stops" /> Спирки (10 280)</label>
+          <label><input type="checkbox" id="layer-circles" /> Население</label>
+        </div>
+      </section>
+
+      <section class="table-section" aria-label="Покритие по NUTS2">
+        <h2>По NUTS2 региони</h2>
+        <table id="nuts2-table" class="data-table">
+          <thead>
+            <tr>
+              <th data-sort="name" class="sortable">Регион</th>
+              <th data-sort="with_pt" class="sortable num">С ОТ</th>
+              <th data-sort="pct_settlements" class="sortable num">%</th>
+              <th data-sort="pct_population" class="sortable num">% нас.</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="table-section" aria-label="Покритие по области">
+        <h2>По области</h2>
+        <table id="oblast-table" class="data-table">
+          <thead>
+            <tr>
+              <th data-sort="name" class="sortable">Област</th>
+              <th data-sort="with_pt" class="sortable num">С ОТ</th>
+              <th data-sort="total" class="sortable num">Общо</th>
+              <th data-sort="pct_settlements" class="sortable num">%</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="export-section">
+        <button id="btn-csv" class="btn-export" aria-label="Изтегли CSV">Изтегли CSV</button>
+        <span id="last-updated" class="meta-info"></span>
+      </section>
+
+      <footer class="attribution">
+        <p>Спирки: общини на РБ чрез ДА БДП | Население: ГРАО | Граници: <a href="https://www.geoboundaries.org" target="_blank" rel="noopener">geoBoundaries</a> (CC-BY-4.0)</p>
+      </footer>
+    </div>
+
+    <button id="sidebar-open" class="sidebar-open-btn" aria-label="Отвори панела">&#9776;</button>
+    <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+    <div id="map"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "code": "BG31",
+    "total": 626,
+    "with_pt": 243,
+    "without_pt": 383,
+    "pop_total": 814955,
+    "pop_with_pt": 581583,
+    "pop_without_pt": 233372,
+    "pct_settlements": 38.8,
+    "pct_population": 71.4,
+    "name": "Северозападен"
+  },
+  {
+    "code": "BG32",
+    "total": 989,
+    "with_pt": 284,
+    "without_pt": 705,
+    "pop_total": 902722,
+    "pop_with_pt": 677388,
+    "pop_without_pt": 225334,
+    "pct_settlements": 28.7,
+    "pct_population": 75.0,
+    "name": "Северен централен"
+  },
+  {
+    "code": "BG33",
+    "total": 719,
+    "with_pt": 375,
+    "without_pt": 344,
+    "pop_total": 1092311,
+    "pop_with_pt": 923667,
+    "pop_without_pt": 168644,
+    "pct_settlements": 52.2,
+    "pct_population": 84.6,
+    "name": "Североизточен"
+  },
+  {
+    "code": "BG34",
+    "total": 674,
+    "with_pt": 280,
+    "without_pt": 394,
+    "pop_total": 1157621,
+    "pop_with_pt": 916077,
+    "pop_without_pt": 241544,
+    "pct_settlements": 41.5,
+    "pct_population": 79.1,
+    "name": "Югоизточен"
+  },
+  {
+    "code": "BG41",
+    "total": 949,
+    "with_pt": 325,
+    "without_pt": 624,
+    "pop_total": 2212076,
+    "pop_with_pt": 1948113,
+    "pop_without_pt": 263963,
+    "pct_settlements": 34.2,
+    "pct_population": 88.1,
+    "name": "Югозападен"
+  },
+  {
+    "code": "BG42",
+    "total": 1299,
+    "with_pt": 479,
+    "without_pt": 820,
+    "pop_total": 1773323,
+    "pop_with_pt": 1376834,
+    "pop_without_pt": 396489,
+    "pct_settlements": 36.9,
+    "pct_population": 77.6,
+    "name": "Южен централен"
+  }
+]

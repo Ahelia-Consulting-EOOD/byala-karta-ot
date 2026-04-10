@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-04-11T18:41:10.681617+00:00",
+  "version": "1.0.0",
+  "data_sources": {
+    "settlements": {
+      "source": "NSI EKATTE",
+      "date": "2026-01-05",
+      "count": 5256
+    },
+    "population": {
+      "source": "GRAO",
+      "date": "2026-03-15"
+    },
+    "coordinates": {
+      "source": "yurukov/Bulgaria-geocoding (OSM)",
+      "count_with_coords": 5252
+    },
+    "stops": {
+      "sources": [
+        {
+          "name": "ДАБДП",
+          "label": "DA BDP GIS Cloud",
+          "date": "2026-02"
+        },
+        {
+          "name": "ЗДОИ",
+          "label": "FOIA municipal responses",
+          "date": "2024-06"
+        }
+      ],
+      "count": 10340
+    }
+  },
+  "summary": {
+    "total_settlements": 5256,
+    "with_pt_access": 1986,
+    "without_pt_access": 3270,
+    "pct_settlements_with_pt": 37.8,
+    "population_total": 7953008,
+    "population_with_pt": 6423662,
+    "population_without_pt": 1529346,
+    "pct_population_with_pt": 80.8,
+    "total_stops": 10340
+  }
+}
