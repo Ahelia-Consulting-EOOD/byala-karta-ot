@@ -1,5 +1,7 @@
 # BDP GIS Cloud vs OpenStreetMap: Transport Stop Coordinate Analysis
 
+> **Scope note:** This analysis covers the BDP GIS Cloud dataset only (10,280 stops with valid geometry). The production dashboard uses a unified dataset that also incorporates 103 GPS coordinates from municipal FOIA (ЗДОИ) responses for Трън, Роман, Любимец, Чавдар, and Челопеч (total: 10,340 stops). See DATA_MODEL.md §7 for the multi-source architecture.
+
 ## 1. Data Sources
 
 ### BDP GIS Cloud

@@ -9,6 +9,13 @@ function esc(v: unknown): string {
     .replace(/"/g, "&quot;");
 }
 
+// MapLibre serializes JSON null as the string "null" in feature properties.
+// Use this instead of a plain truthy check for nullable stop fields.
+function prop(v: unknown): string | null {
+  if (v === null || v === undefined || v === "null" || v === "") return null;
+  return String(v);
+}
+
 // Types
 interface Settlement {
   ekatte: string;
@@ -329,15 +336,36 @@ async function _doLoadStops() {
     const f = e.features?.[0];
     if (!f || !f.geometry || f.geometry.type !== "Point") return;
     const p = f.properties as Record<string, unknown>;
-    new maplibregl.Popup({ maxWidth: "260px" })
+    const isZdoi = p.source === "ЗДОИ";
+    const docId = prop(p.source_doc_id);
+    const sourceBadge = isZdoi
+      ? `<span class="popup-badge source-zdoi">ЗДОИ${docId ? " #" + esc(docId) : ""}</span>`
+      : `<span class="popup-badge source-bdp">ДАБДП</span>`;
+    const city = prop(p.city);
+    const road = prop(p.road);
+    const roadType = prop(p.road_type);
+    const stopTitle = city && road
+      ? `${esc(city)} / ${esc(road)}`
+      : city ? esc(city) : road ? esc(road) : "Спирка";
+    const roadTypeNote = road && roadType ? ` <em>(${esc(roadType)})</em>` : "";
+    const sourceDate = prop(p.source_date);
+    const dateRow = sourceDate
+      ? `<dt>Дата</dt><dd>${esc(sourceDate)}</dd>`
+      : "";
+    const modifiedDate = prop(p.bdp_modified);
+    const modifiedRow = !isZdoi && modifiedDate
+      ? `<dt>Посл. промяна</dt><dd>${esc(modifiedDate)}</dd>`
+      : "";
+    new maplibregl.Popup({ maxWidth: "300px" })
       .setLngLat(f.geometry.coordinates as [number, number])
       .setHTML(`
-        <div class="popup-title">Спирка</div>
+        <div class="popup-title">${stopTitle}${roadTypeNote}</div>
+        <div class="popup-source">${sourceBadge}</div>
         <dl class="popup-grid">
           <dt>Област</dt><dd>${esc(p.oblast || "-")}</dd>
           <dt>Община</dt><dd>${esc(p.municipal || "-")}</dd>
-          <dt>Нас. място</dt><dd>${esc(p.city || "-")}</dd>
-          <dt>Улица/Път</dt><dd>${esc(p.road || "-")}</dd>
+          ${dateRow}
+          ${modifiedRow}
         </dl>
       `)
       .addTo(map);

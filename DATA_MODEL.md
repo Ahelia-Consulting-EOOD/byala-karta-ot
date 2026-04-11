@@ -198,3 +198,81 @@ Confidence: **88**
 ---
 
 *Model inferred on 2026-04-10 from live API data. Confidence scores reflect the strength of evidence, not certainty — independent verification is recommended for scores below 80.*
+
+---
+
+## 7. Multi-Source Unified Stop Model
+
+As of 2026-04-11, the canonical stop dataset is built from two independent sources via `data/stops.db` (SQLite).
+
+### 7.1 Source Tables
+
+| Table | Source | Records | Authority |
+|-------|--------|---------|-----------|
+| `stops_bdp` | DA BDP GIS Cloud (layer 6542284) | 10,280 | National road safety inspection dataset |
+| `stops_zdoi` | Municipal ЗДОИ (FOIA) GPS responses | 103 | Municipalities: Трън (65), Роман (23), Любимец (12), Чавдар (1), Челопеч (2) |
+
+### 7.2 Unified View — `stops_unified`
+
+Municipal replacement logic: for municipalities with ЗДОИ GPS data, **all BDP rows are excluded** and ЗДОИ rows are used exclusively. For all other municipalities, BDP rows are used.
+
+The list of overriding municipalities is defined in `ZDOI_MUNICIPALITIES` in `scripts/build_stops_db.py` — the VIEW SQL is generated from this set, so adding a new municipality requires updating only that constant.
+
+**Output record count:** 10,340 (10,280 BDP stops with valid geometry − 43 stops in ЗДОИ-override municipalities + 103 ЗДОИ rows)
+
+### 7.3 GeoJSON Feature Properties
+
+Every stop feature in `dashboard/public/data/stops.geojson` carries:
+
+| Property | Type | BDP value | ЗДОИ value | Notes |
+|----------|------|-----------|------------|-------|
+| `source` | string | `"ДАБДП"` | `"ЗДОИ"` | Display label for the data authority |
+| `source_doc_id` | string\|null | `null` | e.g. `"10371"` | ЗДОИ application ID on pitay.government.bg |
+| `source_date` | string\|null | Inspection date (`date1`) | FOIA response date | ISO date YYYY-MM-DD |
+| `oblast` | string | Populated | `""` | ЗДОИ responses don't include oblast |
+| `municipal` | string | Populated | Populated | Municipality name |
+| `city` | string | Settlement name | Stop name/description from response | Used as popup title |
+| `road` | string | Street/road name | `""` | Appended to title when present |
+| `road_type` | string | `"улица"` or `"път"` | `""` | |
+| `bdp_date` | string\|null | Inspection date | `null` | Physical site visit date |
+| `bdp_modified` | string\|null | GIS Cloud last-modified date | `null` | Derived from `__modified` unix timestamp |
+
+> **Personal data not included.** Inspector names (`inspector1`, `inspector2`) are stored in the internal `stops_bdp` SQLite table for analytical use but are excluded from `stops_unified`, `stops.geojson`, and the dashboard. See §7.3a below.
+
+### 7.3a Personal Data — Anonymization Policy
+
+`stops_bdp` retains `inspector1` and `inspector2` (free-text personal names of field inspectors) for internal analytical use. These fields are **intentionally excluded** from all public-facing output:
+
+1. The `stops_unified` VIEW does not select `inspector1`/`inspector2`.
+2. `dashboard/scripts/build_data.py` does not query or emit any inspector field.
+3. `spirki_transport_raw.json` (source file containing full names) is in `.gitignore` and must never be committed to the repository.
+
+This boundary ensures personal names of public-sector employees are not exposed through the public GeoJSON pipeline or the dashboard.
+
+### 7.4 ЗДОИ Source Metadata
+
+| App ID | Municipality | Oblast | Submit date | Response date |
+|--------|-------------|--------|-------------|---------------|
+| 10316 | Любимец | Хасково | 2024-06-10 | 2024-06-14 |
+| 10371 | Роман | Враца | 2024-06-10 | 2024-06-20 |
+| 10415 | Трън | Перник | 2024-06-10 | 2024-07-04 |
+| 10430 | Чавдар | София | 2024-06-10 | 2024-06-13 |
+| 10431 | Челопеч | София | 2024-06-10 | 2024-06-20 |
+
+### 7.5 Build Pipeline
+
+```
+spirki_transport_raw.json  ──┐
+                              ├─ scripts/build_stops_db.py ──► data/stops.db
+data/zdoi_stops_gps.json   ──┘         (run once per source update)
+                                                  │
+                                    stops_unified VIEW
+                                                  │
+                              dashboard/scripts/build_data.py
+                                                  │
+                              dashboard/public/data/stops.geojson
+                                                  │
+                              dashboard/src/main.ts (renders map)
+```
+
+To add a new ЗДОИ municipality: add rows to `data/zdoi_stops_gps.json`, add the name to `ZDOI_MUNICIPALITIES` in `build_stops_db.py`, then re-run the full pipeline.

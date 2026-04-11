@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T11:35:20.820616+00:00",
+  "generated_at": "2026-04-11T18:05:04.708464+00:00",
   "version": "1.0.0",
   "data_sources": {
     "settlements": {
@@ -16,9 +16,19 @@
       "count_with_coords": 5252
     },
     "stops": {
-      "source": "DA BDP GIS Cloud",
-      "date": "2026-02",
-      "count": 10280
+      "sources": [
+        {
+          "name": "ДАБДП",
+          "label": "DA BDP GIS Cloud",
+          "date": "2026-02"
+        },
+        {
+          "name": "ЗДОИ",
+          "label": "FOIA municipal responses",
+          "date": "2024-06"
+        }
+      ],
+      "count": 10340
     }
   },
   "summary": {
@@ -30,6 +40,6 @@
     "population_with_pt": 6421486,
     "population_without_pt": 1531522,
     "pct_population_with_pt": 80.7,
-    "total_stops": 10280
+    "total_stops": 10340
   }
 }

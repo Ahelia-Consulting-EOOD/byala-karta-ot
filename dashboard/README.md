@@ -8,7 +8,11 @@
 # Install dependencies
 npm install
 
-# Build data layers from raw sources
+# Build SQLite stops database from raw sources (run once per source update)
+# Requires: ../spirki_transport_raw.json and ../data/zdoi_stops_gps.json
+python3 ../scripts/build_stops_db.py
+
+# Build GeoJSON data layers from the database
 npm run build:data
 
 # Start development server
@@ -20,7 +24,7 @@ Open http://localhost:5173
 ## Features
 
 - **5 256 населени места** with PT access status (green/red markers)
-- **10 280 bus stops** with clustering (toggleable layer)
+- **10 340 bus stops** with clustering (toggleable layer, two sources: DA BDP + FOIA municipal GPS)
 - **Proportional circles** sized by population
 - **Filters**: by oblast, municipality, PT status, settlement type
 - **Search**: find any settlement by name
@@ -36,6 +40,7 @@ Open http://localhost:5173
 | NSI EKATTE | 5,256 settlements | 2026-01-05 |
 | GRAO | Population by settlement | 2026-03-15 |
 | DA BDP (GIS Cloud) | 10,280 bus stops | 2026-02 |
+| Municipal FOIA (ЗДОИ) responses | 103 GPS stop coordinates (Трън, Роман, Любимец, Чавдар, Челопеч) | 2024-06 |
 | yurukov/Bulgaria-geocoding | Settlement coordinates | OSM-based |
 
 ## Tech Stack
@@ -73,6 +78,7 @@ npm run build
 
 ## Update Data
 
-1. Place updated source files in `../data/`
-2. Run `npm run build:data`
-3. Rebuild: `npm run build`
+1. Place updated source files in `../data/` and `../spirki_transport_raw.json`
+2. Rebuild the stops database: `python3 ../scripts/build_stops_db.py`
+3. Rebuild GeoJSON layers: `npm run build:data`
+4. Rebuild dashboard: `npm run build`

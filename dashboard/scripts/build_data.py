@@ -3,7 +3,7 @@ Build production GeoJSON layers from raw data sources.
 
 Input:
   ../data/bg_settlements_with_pt.json  (5,256 settlements with PT flags)
-  ../bdp_stops_wgs84.json              (10,280 bus stops)
+  ../data/stops.db                     (SQLite: stops_bdp + stops_zdoi + stops_unified view)
 
 Output:
   public/data/settlements.geojson
@@ -15,6 +15,7 @@ Output:
 
 import json
 import os
+import sqlite3
 import sys
 from datetime import datetime, timezone
 from collections import defaultdict
@@ -41,9 +42,17 @@ def load_settlements():
 
 
 def load_stops():
-    path = os.path.join(os.path.dirname(PROJECT_DIR), "bdp_stops_wgs84.json")
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+    db_path = os.path.join(DATA_DIR, "stops.db")
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    rows = conn.execute("""
+        SELECT uid, source, source_doc_id, source_date,
+               lat, lon, oblast, municipal, city,
+               road_n, road_t, bdp_date1, bdp_modified_at
+        FROM stops_unified
+    """).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 def get_municipality_centroid(settlements, obshtina):
@@ -87,6 +96,16 @@ def build_settlements_geojson(settlements):
     return {"type": "FeatureCollection", "features": features}
 
 
+def _unix_to_date(ts):
+    """Convert a Unix timestamp (seconds) to ISO date string, or None."""
+    if ts is None:
+        return None
+    try:
+        return datetime.fromtimestamp(int(ts), tz=timezone.utc).strftime("%Y-%m-%d")
+    except (ValueError, OSError, OverflowError):
+        return None
+
+
 def build_stops_geojson(stops):
     features = []
     for s in stops:
@@ -96,12 +115,17 @@ def build_stops_geojson(stops):
             continue
 
         props = {
-            "id": s.get("id"),
-            "oblast": s.get("oblast", ""),
-            "municipal": s.get("municipal", ""),
-            "city": s.get("city", ""),
-            "road": s.get("road", ""),
-            "road_type": s.get("road_type", ""),
+            "id":            s.get("uid") or s.get("id"),
+            "source":        s.get("source", "ДАБДП"),
+            "source_doc_id": s.get("source_doc_id") or None,
+            "source_date":   s.get("source_date") or None,
+            "oblast":        s.get("oblast", ""),
+            "municipal":     s.get("municipal", ""),
+            "city":          s.get("city", ""),
+            "road":          s.get("road_n", ""),
+            "road_type":     s.get("road_t", ""),
+            "bdp_date":      s.get("bdp_date1") or None,
+            "bdp_modified":  _unix_to_date(s.get("bdp_modified_at")),
         }
 
         features.append({
@@ -171,7 +195,13 @@ def build_metadata(settlements, stops_count):
             "settlements": {"source": "NSI EKATTE", "date": "2026-01-05", "count": len(settlements)},
             "population": {"source": "GRAO", "date": "2026-03-15"},
             "coordinates": {"source": "yurukov/Bulgaria-geocoding (OSM)", "count_with_coords": sum(1 for s in settlements if s.get("lon"))},
-            "stops": {"source": "DA BDP GIS Cloud", "date": "2026-02", "count": stops_count},
+            "stops": {
+                "sources": [
+                    {"name": "ДАБДП", "label": "DA BDP GIS Cloud", "date": "2026-02"},
+                    {"name": "ЗДОИ", "label": "FOIA municipal responses", "date": "2024-06"},
+                ],
+                "count": stops_count,
+            },
         },
         "summary": {
             "total_settlements": len(settlements),
@@ -236,6 +266,7 @@ def main():
         (without_pt == 3317, f"Without PT: {without_pt} (expected 3317)"),
         (abs(pct_pop - 80.7) < 0.5, f"Population with PT: {pct_pop}% (expected ~80.7%)"),
         (len(settlements_gj["features"]) >= 5252, f"GeoJSON features: {len(settlements_gj['features'])} (expected >= 5252)"),
+        (10300 <= len(stops_gj["features"]) <= 10400, f"Stop features: {len(stops_gj['features'])} (expected 10300–10400)"),
     ]
 
     all_pass = True

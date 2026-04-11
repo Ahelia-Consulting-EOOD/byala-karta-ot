@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:db": "python3 scripts/build_stops_db.py"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "docx": "^9.6.1"
+  }
+}

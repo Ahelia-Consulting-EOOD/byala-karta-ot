@@ -16,6 +16,7 @@ docs/proposal_mts_executive.md
 
 # Raw scrape outputs (large, reproducible)
 spirki_transport_raw.json
+bdp_stops_wgs84.json
 spirki_transport.geojson
 spirki_with_inspectors.json
 avtogari_jp_gari_raw.json
@@ -35,3 +36,4 @@ data/grao_population_2026_03.txt
 data/grao_population_2026_03_utf8.txt
 data/settlements_loc_yurukov.csv
 data/settlements_yurukov.csv
+data/stops.db

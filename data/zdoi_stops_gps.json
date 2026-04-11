@@ -1,0 +1,1032 @@
+[
+  {
+    "id": 1,
+    "lat": 41.839273,
+    "lon": 26.090709,
+    "municipality": "Любимец",
+    "name": "Поделение“",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 2,
+    "lat": 41.803662,
+    "lon": 26.028482,
+    "municipality": "Любимец",
+    "name": "с. Лозен – център – координати",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 3,
+    "lat": 43.14741,
+    "lon": 23.925218,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 4,
+    "lat": 43.146669,
+    "lon": 23.925443,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 5,
+    "lat": 43.142284,
+    "lon": 23.925703,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 6,
+    "lat": 43.141993,
+    "lon": 23.925625,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 7,
+    "lat": 43.141564,
+    "lon": 23.925316,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 8,
+    "lat": 43.22647,
+    "lon": 23.89394,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 9,
+    "lat": 43.108614,
+    "lon": 23.829785,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 10,
+    "lat": 43.15738,
+    "lon": 23.961341,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 11,
+    "lat": 43.185192,
+    "lon": 23.887167,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 12,
+    "lat": 43.183268,
+    "lon": 23.894473,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 13,
+    "lat": 43.123267,
+    "lon": 23.997648,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 14,
+    "lat": 43.125076,
+    "lon": 24.006101,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 15,
+    "lat": 43.12866,
+    "lon": 23.892978,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 16,
+    "lat": 43.126765,
+    "lon": 23.898259,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 17,
+    "lat": 43.135717,
+    "lon": 23.86572,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 18,
+    "lat": 43.104891,
+    "lon": 23.937806,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 19,
+    "lat": 43.098614,
+    "lon": 23.914809,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 20,
+    "lat": 43.146995,
+    "lon": 23.925178,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 21,
+    "lat": 42.78709,
+    "lon": 22.77614,
+    "municipality": "Трън",
+    "name": "Лялинци 42.77236",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 22,
+    "lat": 42.77974,
+    "lon": 22.78718,
+    "municipality": "Трън",
+    "name": "Недялково",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 23,
+    "lat": 42.79784,
+    "lon": 22.75842,
+    "municipality": "Трън",
+    "name": "Недялково 42.77974",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 24,
+    "lat": 42.80917,
+    "lon": 22.74215,
+    "municipality": "Трън",
+    "name": "Парамун 42.79211",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 25,
+    "lat": 42.81938,
+    "lon": 22.72665,
+    "municipality": "Трън",
+    "name": "Парамун 42.79211",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 26,
+    "lat": 42.83658,
+    "lon": 22.69727,
+    "municipality": "Трън",
+    "name": "Мракетинци 42.80917",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 27,
+    "lat": 42.83691,
+    "lon": 22.69004,
+    "municipality": "Трън",
+    "name": "Филиповци 42.81938",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 28,
+    "lat": 42.83441,
+    "lon": 22.65193,
+    "municipality": "Трън",
+    "name": "Ездимирци 42.81169",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 29,
+    "lat": 42.81645,
+    "lon": 22.60115,
+    "municipality": "Трън",
+    "name": "Докьовци 42.64886",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 30,
+    "lat": 42.82381,
+    "lon": 22.60484,
+    "municipality": "Трън",
+    "name": "Побит Камък 42.81645",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 31,
+    "lat": 42.81942,
+    "lon": 22.57684,
+    "municipality": "Трън",
+    "name": "Лешниковци 42.77965",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 32,
+    "lat": 42.83318,
+    "lon": 22.58492,
+    "municipality": "Трън",
+    "name": "Лешниковци 42.77965",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 33,
+    "lat": 42.81662,
+    "lon": 22.52469,
+    "municipality": "Трън",
+    "name": "Цегриловци 42.78019",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 34,
+    "lat": 42.7657,
+    "lon": 22.49608,
+    "municipality": "Трън",
+    "name": "Реяновци 42.78372",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 35,
+    "lat": 42.66015,
+    "lon": 24.056968,
+    "municipality": "Чавдар",
+    "name": "с GPS координати –",
+    "app_id": "10430",
+    "response_date": "2024-06-13",
+    "source_url": "https://pitay.government.bg/application/10430/view"
+  },
+  {
+    "id": 36,
+    "lat": 42.69826,
+    "lon": 24.08597,
+    "municipality": "Челопеч",
+    "name": ". Едната е посока за",
+    "app_id": "10431",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10431/view"
+  },
+  {
+    "id": 37,
+    "lat": 42.69856,
+    "lon": 24.08733,
+    "municipality": "Челопеч",
+    "name": "",
+    "app_id": "10431",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10431/view"
+  },
+  {
+    "id": 38,
+    "lat": 41.84880721531178,
+    "lon": 26.084592225214955,
+    "municipality": "Любимец",
+    "name": "Мънгъръ“",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 39,
+    "lat": 41.85053573008719,
+    "lon": 26.074687815854052,
+    "municipality": "Любимец",
+    "name": "- бивша",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 40,
+    "lat": 41.827501,
+    "lon": 26.007329,
+    "municipality": "Любимец",
+    "name": "с. Белица – център – координат",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 41,
+    "lat": 41.759465375660575,
+    "lon": 25.99383808891209,
+    "municipality": "Любимец",
+    "name": "с. Малко градище – център –",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 42,
+    "lat": 41.689505938267,
+    "lon": 26.012090102715213,
+    "municipality": "Любимец",
+    "name": "с. Вълче поле – център – коорд",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 43,
+    "lat": 41.669478,
+    "lon": 25.992297,
+    "municipality": "Любимец",
+    "name": "с. Дъбовец – център – координа",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 44,
+    "lat": 41.895185,
+    "lon": 26.101114,
+    "municipality": "Любимец",
+    "name": "с. Йерусалимово -център – коор",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 45,
+    "lat": 41.92155517754528,
+    "lon": 26.157086186519756,
+    "municipality": "Любимец",
+    "name": "с. Оряхово - център – координа",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 46,
+    "lat": 41.917253,
+    "lon": 26.198236,
+    "municipality": "Любимец",
+    "name": "с. Васково - център – координа",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 47,
+    "lat": 41.85014702859786,
+    "lon": 26.074131761483518,
+    "municipality": "Любимец",
+    "name": "- ЖП Гара",
+    "app_id": "10316",
+    "response_date": "2024-06-14",
+    "source_url": "https://pitay.government.bg/application/10316/view"
+  },
+  {
+    "id": 48,
+    "lat": 43.150885,
+    "lon": 23.923838,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 49,
+    "lat": 43.187576,
+    "lon": 24.000943,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 50,
+    "lat": 43.103367,
+    "lon": 23.832927,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 51,
+    "lat": 43.13448,
+    "lon": 23.826281,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 52,
+    "lat": 43.077537,
+    "lon": 23.850056,
+    "municipality": "Роман",
+    "name": "",
+    "app_id": "10371",
+    "response_date": "2024-06-20",
+    "source_url": "https://pitay.government.bg/application/10371/view"
+  },
+  {
+    "id": 53,
+    "lat": 42.77236,
+    "lon": 22.76089,
+    "municipality": "Трън",
+    "name": "Лялинци",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 54,
+    "lat": 42.79211,
+    "lon": 22.74576,
+    "municipality": "Трън",
+    "name": "Недялково 42.77974",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 55,
+    "lat": 42.81169,
+    "lon": 22.68896,
+    "municipality": "Трън",
+    "name": "Врабча 42.83658",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 56,
+    "lat": 42.86171,
+    "lon": 22.6799,
+    "municipality": "Трън",
+    "name": "Секирица 42.83691",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 57,
+    "lat": 42.86177,
+    "lon": 22.64522,
+    "municipality": "Трън",
+    "name": "Банкя 42.86171",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 58,
+    "lat": 42.87303,
+    "lon": 22.62704,
+    "municipality": "Трън",
+    "name": "Трън 42.83441",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 59,
+    "lat": 42.8243,
+    "lon": 22.63391,
+    "municipality": "Трън",
+    "name": "Ждрелото 42.86177",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 60,
+    "lat": 42.81442,
+    "lon": 22.63861,
+    "municipality": "Трън",
+    "name": "Ломница 42.87303",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 61,
+    "lat": 42.79984,
+    "lon": 22.67081,
+    "municipality": "Трън",
+    "name": "Трънски обор 42.81442",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 62,
+    "lat": 42.7918,
+    "lon": 22.66817,
+    "municipality": "Трън",
+    "name": "мах.Тодоркина 42.79984",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 63,
+    "lat": 42.78891,
+    "lon": 22.69981,
+    "municipality": "Трън",
+    "name": "Глоговица 42.79180",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 64,
+    "lat": 42.75223,
+    "lon": 22.69596,
+    "municipality": "Трън",
+    "name": "Глоговица 42.79180",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 65,
+    "lat": 42.81893,
+    "lon": 22.62789,
+    "municipality": "Трън",
+    "name": "Велиново 42.78891",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 66,
+    "lat": 42.80149,
+    "lon": 22.61547,
+    "municipality": "Трън",
+    "name": "Илиин хан 42.81893",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 67,
+    "lat": 42.79692,
+    "lon": 22.59522,
+    "municipality": "Трън",
+    "name": "Илиин хан 42.81893",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 68,
+    "lat": 42.77981,
+    "lon": 22.62589,
+    "municipality": "Трън",
+    "name": "Радово 42.79692",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 69,
+    "lat": 42.79341,
+    "lon": 22.60946,
+    "municipality": "Трън",
+    "name": "Бусинци 42.77981",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 70,
+    "lat": 42.79187,
+    "lon": 22.59705,
+    "municipality": "Трън",
+    "name": "Ст. Извор",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 71,
+    "lat": 42.77845,
+    "lon": 22.60459,
+    "municipality": "Трън",
+    "name": "Ст. Извор 42.79187",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 72,
+    "lat": 42.7659,
+    "lon": 22.57868,
+    "municipality": "Трън",
+    "name": "Ст. Извор 42.79187",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 73,
+    "lat": 42.7598,
+    "lon": 22.56387,
+    "municipality": "Трън",
+    "name": "Костуринци 42.76590",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 74,
+    "lat": 42.74465,
+    "lon": 22.56098,
+    "municipality": "Трън",
+    "name": "Костуринци 42.76590",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 75,
+    "lat": 42.76054,
+    "lon": 22.54063,
+    "municipality": "Трън",
+    "name": "Средорек 42.75980",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 76,
+    "lat": 42.70301,
+    "lon": 22.54288,
+    "municipality": "Трън",
+    "name": "Еловица 42.74465",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 77,
+    "lat": 42.67416,
+    "lon": 22.52743,
+    "municipality": "Трън",
+    "name": "Горна Мелна 42.70301",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 78,
+    "lat": 42.64115,
+    "lon": 22.55308,
+    "municipality": "Трън",
+    "name": "Долна Мелна 42.67416",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 79,
+    "lat": 42.77334,
+    "lon": 22.61056,
+    "municipality": "Трън",
+    "name": "Долна Мелна 42.67416",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 80,
+    "lat": 42.74996,
+    "lon": 22.61381,
+    "municipality": "Трън",
+    "name": "Дълга лука 42.64115",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 81,
+    "lat": 42.74752,
+    "lon": 22.61451,
+    "municipality": "Трън",
+    "name": "Вукан 42.77334",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 82,
+    "lat": 42.74482,
+    "lon": 22.62259,
+    "municipality": "Трън",
+    "name": "Мрамор 42.74996",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 83,
+    "lat": 42.72926,
+    "lon": 22.6096,
+    "municipality": "Трън",
+    "name": "Кожинци 42.74482",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 84,
+    "lat": 42.69602,
+    "lon": 22.59724,
+    "municipality": "Трън",
+    "name": "Кожинци 42.74482",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 85,
+    "lat": 42.70539,
+    "lon": 22.59011,
+    "municipality": "Трън",
+    "name": "Круша 42.72926",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 86,
+    "lat": 42.67358,
+    "lon": 22.5901,
+    "municipality": "Трън",
+    "name": "Горочевци 42.70539",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 87,
+    "lat": 42.66858,
+    "lon": 22.57694,
+    "municipality": "Трън",
+    "name": "Горочевци 42.70539",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 88,
+    "lat": 42.64886,
+    "lon": 22.59917,
+    "municipality": "Трън",
+    "name": "Видрар 42.67358",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 89,
+    "lat": 42.60404,
+    "lon": 22.62291,
+    "municipality": "Трън",
+    "name": "Лева река 42.66858",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 90,
+    "lat": 42.80842,
+    "lon": 22.59425,
+    "municipality": "Трън",
+    "name": "Побит Камък 42.81645",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 91,
+    "lat": 42.80596,
+    "lon": 22.55474,
+    "municipality": "Трън",
+    "name": "Туроковци 42.82381",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 92,
+    "lat": 42.77965,
+    "lon": 22.53672,
+    "municipality": "Трън",
+    "name": "Бераинци 42.80842",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 93,
+    "lat": 42.83663,
+    "lon": 22.56168,
+    "municipality": "Трън",
+    "name": "Забелски хан 42.81942",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 94,
+    "lat": 42.82045,
+    "lon": 22.54362,
+    "municipality": "Трън",
+    "name": "Забел 42.83318",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 95,
+    "lat": 42.83479,
+    "lon": 22.53446,
+    "municipality": "Трън",
+    "name": "Искренов хан 42.82045",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 96,
+    "lat": 42.78019,
+    "lon": 22.51125,
+    "municipality": "Трън",
+    "name": "Милославци 42.83479",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 97,
+    "lat": 42.8232,
+    "lon": 22.50612,
+    "municipality": "Трън",
+    "name": "Главановци 42.81662",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 98,
+    "lat": 42.82472,
+    "lon": 22.49261,
+    "municipality": "Трън",
+    "name": "Главановци 42.81662",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 99,
+    "lat": 42.80564,
+    "lon": 22.47285,
+    "municipality": "Трън",
+    "name": "Насалевци 42.82320",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 100,
+    "lat": 42.79929,
+    "lon": 22.45154,
+    "municipality": "Трън",
+    "name": "Слишовци 42.80564",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 101,
+    "lat": 42.78372,
+    "lon": 22.48723,
+    "municipality": "Трън",
+    "name": "Стрезимировци 42.79929",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 102,
+    "lat": 42.7827,
+    "lon": 22.46844,
+    "municipality": "Трън",
+    "name": "Реяновци 42.78372",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  },
+  {
+    "id": 103,
+    "lat": 42.73285,
+    "lon": 22.65163,
+    "municipality": "Трън",
+    "name": "Джинчовци 42.78270",
+    "app_id": "10415",
+    "response_date": "2024-07-04",
+    "source_url": "https://pitay.government.bg/application/10415/view"
+  }
+]

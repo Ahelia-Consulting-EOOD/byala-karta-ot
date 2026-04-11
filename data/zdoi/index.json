@@ -1,0 +1,4782 @@
+{
+  "source": "pitay.government.bg",
+  "searchQuery": "Трипко",
+  "scrapedAt": "2026-04-11T10:36:34.760Z",
+  "totalApplications": 265,
+  "stats": {
+    "approved": 121,
+    "overdue": 109,
+    "other": 35,
+    "withResponse": 129,
+    "withAttachments": 17,
+    "matchedToEKATTE": 264,
+    "unmatchedAuthorities": [
+      "Министерство на транспорта и съобщенията"
+    ]
+  },
+  "applications": [
+    {
+      "appId": "10815",
+      "authority": "Министерство на транспорта и съобщенията",
+      "municipality": null,
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "11.07.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10443",
+      "authority": "Общинска администрация - Ямбол",
+      "municipality": {
+        "name": "Ямбол",
+        "code": "JAM26",
+        "oblast": "Ямбол",
+        "oblast_code": "JAM",
+        "nuts2": "BG34",
+        "nuts3": "BG343"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10442",
+      "authority": "Общинска администрация - Якоруда",
+      "municipality": {
+        "name": "Якоруда",
+        "code": "BLG53",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10441",
+      "authority": "Общинска администрация - Якимово",
+      "municipality": {
+        "name": "Якимово",
+        "code": "MON38",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10440",
+      "authority": "Общинска администрация - Ябланица",
+      "municipality": {
+        "name": "Ябланица",
+        "code": "LOV38",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10439",
+      "authority": "Общинска администрация - Шумен",
+      "municipality": {
+        "name": "Шумен",
+        "code": "SHU30",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10438",
+      "authority": "Общинска администрация - Шабла",
+      "municipality": {
+        "name": "Шабла",
+        "code": "DOB29",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "04.07.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10437",
+      "authority": "Общинска администрация - Чупрене",
+      "municipality": {
+        "name": "Чупрене",
+        "code": "VID37",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10436",
+      "authority": "Общинска администрация - Чирпан",
+      "municipality": {
+        "name": "Чирпан",
+        "code": "SZR36",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10435",
+      "authority": "Общинска администрация - Чипровци",
+      "municipality": {
+        "name": "Чипровци",
+        "code": "MON36",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10434",
+      "authority": "Общинска администрация - Черноочене",
+      "municipality": {
+        "name": "Черноочене",
+        "code": "KRZ35",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10433",
+      "authority": "Общинска администрация - Червен бряг",
+      "municipality": {
+        "name": "Червен бряг",
+        "code": "PVN37",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10432",
+      "authority": "Общинска администрация - Чепеларе",
+      "municipality": {
+        "name": "Чепеларе",
+        "code": "SML38",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10431",
+      "authority": "Общинска администрация - Челопеч",
+      "municipality": {
+        "name": "Челопеч",
+        "code": "SFO58",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10430",
+      "authority": "Общинска администрация - Чавдар",
+      "municipality": {
+        "name": "Чавдар",
+        "code": "SFO57",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "13.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10429",
+      "authority": "Общинска администрация - Ценово",
+      "municipality": {
+        "name": "Ценово",
+        "code": "RSE37",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10428",
+      "authority": "Общинска администрация - Царево",
+      "municipality": {
+        "name": "Царево",
+        "code": "BGS13",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10427",
+      "authority": "Общинска администрация - Цар Калоян",
+      "municipality": {
+        "name": "Цар Калоян",
+        "code": "RAZ36",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10426",
+      "authority": "Общинска администрация - Хитрино",
+      "municipality": {
+        "name": "Хитрино",
+        "code": "SHU11",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10425",
+      "authority": "Общинска администрация - Хисаря",
+      "municipality": {
+        "name": "Хисаря",
+        "code": "PDV37",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Частично одобрено",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 3,
+      "hasResponse": true
+    },
+    {
+      "appId": "10424",
+      "authority": "Общинска администрация - Хасково",
+      "municipality": {
+        "name": "Хасково",
+        "code": "HKV34",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10423",
+      "authority": "Общинска администрация - Харманли",
+      "municipality": {
+        "name": "Харманли",
+        "code": "HKV33",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10422",
+      "authority": "Общинска администрация - Хайредин",
+      "municipality": {
+        "name": "Хайредин",
+        "code": "VRC35",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10421",
+      "authority": "Общинска администрация - Хаджидимово",
+      "municipality": {
+        "name": "Хаджидимово",
+        "code": "BLG52",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10420",
+      "authority": "Общинска администрация - Угърчин",
+      "municipality": {
+        "name": "Угърчин",
+        "code": "LOV36",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10419",
+      "authority": "Общинска администрация - Търговище",
+      "municipality": {
+        "name": "Търговище",
+        "code": "TGV35",
+        "oblast": "Търговище",
+        "oblast_code": "TGV",
+        "nuts2": "BG33",
+        "nuts3": "BG334"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10418",
+      "authority": "Общинска администрация - Тутракан",
+      "municipality": {
+        "name": "Тутракан",
+        "code": "SLS34",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10417",
+      "authority": "Общинска администрация - Тунджа",
+      "municipality": {
+        "name": "Тунджа",
+        "code": "JAM25",
+        "oblast": "Ямбол",
+        "oblast_code": "JAM",
+        "nuts2": "BG34",
+        "nuts3": "BG343"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10416",
+      "authority": "Общинска администрация - Трявна",
+      "municipality": {
+        "name": "Трявна",
+        "code": "GAB35",
+        "oblast": "Габрово",
+        "oblast_code": "GAB",
+        "nuts2": "BG32",
+        "nuts3": "BG322"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10415",
+      "authority": "Общинска администрация - Трън",
+      "municipality": {
+        "name": "Трън",
+        "code": "PER51",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "04.07.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10414",
+      "authority": "Общинска администрация - Троян",
+      "municipality": {
+        "name": "Троян",
+        "code": "LOV34",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10413",
+      "authority": "Общинска администрация - Трекляно",
+      "municipality": {
+        "name": "Трекляно",
+        "code": "KNL50",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10412",
+      "authority": "Общинска администрация - Тополовград",
+      "municipality": {
+        "name": "Тополовград",
+        "code": "HKV32",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10411",
+      "authority": "Общинска администрация - Тетевен",
+      "municipality": {
+        "name": "Тетевен",
+        "code": "LOV33",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10410",
+      "authority": "Общинска администрация - Тервел",
+      "municipality": {
+        "name": "Тервел",
+        "code": "DOB27",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10409",
+      "authority": "Общинска администрация - Твърдица",
+      "municipality": {
+        "name": "Твърдица",
+        "code": "SLV24",
+        "oblast": "Сливен",
+        "oblast_code": "SLV",
+        "nuts2": "BG34",
+        "nuts3": "BG342"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10408",
+      "authority": "Общинска администрация - Сърница",
+      "municipality": {
+        "name": "Сърница",
+        "code": "PAZ39",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Информацията не съществува",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10407",
+      "authority": "Общинска администрация - Съединение",
+      "municipality": {
+        "name": "Съединение",
+        "code": "PDV33",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10406",
+      "authority": "Общинска администрация - Сухиндол",
+      "municipality": {
+        "name": "Сухиндол",
+        "code": "VTR32",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10405",
+      "authority": "Общинска администрация - Сунгурларе",
+      "municipality": {
+        "name": "Сунгурларе",
+        "code": "BGS23",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10404",
+      "authority": "Общинска администрация - Суворово",
+      "municipality": {
+        "name": "Суворово",
+        "code": "VAR26",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10403",
+      "authority": "Общинска администрация - Струмяни",
+      "municipality": {
+        "name": "Струмяни",
+        "code": "BLG49",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10402",
+      "authority": "Общинска администрация - Стрелча",
+      "municipality": {
+        "name": "Стрелча",
+        "code": "PAZ32",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10401",
+      "authority": "Общинска администрация - Стралджа",
+      "municipality": {
+        "name": "Стралджа",
+        "code": "JAM22",
+        "oblast": "Ямбол",
+        "oblast_code": "JAM",
+        "nuts2": "BG34",
+        "nuts3": "BG343"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10399",
+      "authority": "Общинска администрация - Стамболово",
+      "municipality": {
+        "name": "Стамболово",
+        "code": "HKV30",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10398",
+      "authority": "Общинска администрация - Стамболийски",
+      "municipality": {
+        "name": "Стамболийски",
+        "code": "PDV41",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10397",
+      "authority": "Общинска администрация - Средец",
+      "municipality": {
+        "name": "Средец",
+        "code": "BGS06",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10396",
+      "authority": "Общинска администрация - Сопот",
+      "municipality": {
+        "name": "Сопот",
+        "code": "PDV43",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10395",
+      "authority": "Общинска администрация - Созопол",
+      "municipality": {
+        "name": "Созопол",
+        "code": "BGS21",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10394",
+      "authority": "Общинска администрация - Смядово",
+      "municipality": {
+        "name": "Смядово",
+        "code": "SHU25",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10393",
+      "authority": "Общинска администрация - Смолян",
+      "municipality": {
+        "name": "Смолян",
+        "code": "SML31",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10392",
+      "authority": "Общинска администрация - Сливо поле",
+      "municipality": {
+        "name": "Сливо поле",
+        "code": "RSE33",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10391",
+      "authority": "Общинска администрация - Сливница",
+      "municipality": {
+        "name": "Сливница",
+        "code": "SFO45",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10390",
+      "authority": "Общинска администрация - Сливен",
+      "municipality": {
+        "name": "Сливен",
+        "code": "SLV20",
+        "oblast": "Сливен",
+        "oblast_code": "SLV",
+        "nuts2": "BG34",
+        "nuts3": "BG342"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10389",
+      "authority": "Общинска администрация - Ситово",
+      "municipality": {
+        "name": "Ситово",
+        "code": "SLS32",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10388",
+      "authority": "Общинска администрация - Симитли",
+      "municipality": {
+        "name": "Симитли",
+        "code": "BLG44",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10387",
+      "authority": "Общинска администрация - Симеоновград",
+      "municipality": {
+        "name": "Симеоновград",
+        "code": "HKV29",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10386",
+      "authority": "Общинска администрация - Силистра",
+      "municipality": {
+        "name": "Силистра",
+        "code": "SLS31",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10385",
+      "authority": "Общинска администрация - Септември",
+      "municipality": {
+        "name": "Септември",
+        "code": "PAZ29",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Частично одобрено",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10384",
+      "authority": "Общинска администрация - Севлиево",
+      "municipality": {
+        "name": "Севлиево",
+        "code": "GAB29",
+        "oblast": "Габрово",
+        "oblast_code": "GAB",
+        "nuts2": "BG32",
+        "nuts3": "BG322"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "26.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10383",
+      "authority": "Общинска администрация - Своге",
+      "municipality": {
+        "name": "Своге",
+        "code": "SFO43",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10382",
+      "authority": "Общинска администрация - Свищов",
+      "municipality": {
+        "name": "Свищов",
+        "code": "VTR28",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10381",
+      "authority": "Общинска администрация - Свиленград",
+      "municipality": {
+        "name": "Свиленград",
+        "code": "HKV28",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10380",
+      "authority": "Общинска администрация - Сатовча",
+      "municipality": {
+        "name": "Сатовча",
+        "code": "BLG42",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10379",
+      "authority": "Общинска администрация - Сапарева баня",
+      "municipality": {
+        "name": "Сапарева баня",
+        "code": "KNL41",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10378",
+      "authority": "Общинска администрация - Сандански",
+      "municipality": {
+        "name": "Сандански",
+        "code": "BLG40",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10377",
+      "authority": "Общинска администрация - Самуил",
+      "municipality": {
+        "name": "Самуил",
+        "code": "RAZ29",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10376",
+      "authority": "Общинска администрация - Самоков",
+      "municipality": {
+        "name": "Самоков",
+        "code": "SFO39",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10375",
+      "authority": "Общинска администрация - Садово",
+      "municipality": {
+        "name": "Садово",
+        "code": "PDV28",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10374",
+      "authority": "Общинска администрация - Ружинци",
+      "municipality": {
+        "name": "Ружинци",
+        "code": "VID33",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10373",
+      "authority": "Общинска администрация - Руен",
+      "municipality": {
+        "name": "Руен",
+        "code": "BGS18",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10372",
+      "authority": "Общинска администрация - Рудозем",
+      "municipality": {
+        "name": "Рудозем",
+        "code": "SML27",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10371",
+      "authority": "Общинска администрация - Роман",
+      "municipality": {
+        "name": "Роман",
+        "code": "VRC32",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10370",
+      "authority": "Общинска администрация - Родопи",
+      "municipality": {
+        "name": "Родопи",
+        "code": "PDV26",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10369",
+      "authority": "Общинска администрация - Рила",
+      "municipality": {
+        "name": "Рила",
+        "code": "KNL38",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10368",
+      "authority": "Общинска администрация - Раковски",
+      "municipality": {
+        "name": "Раковски",
+        "code": "PDV25",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10367",
+      "authority": "Общинска администрация - Ракитово",
+      "municipality": {
+        "name": "Ракитово",
+        "code": "PAZ24",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10366",
+      "authority": "Общинска администрация - Разлог",
+      "municipality": {
+        "name": "Разлог",
+        "code": "BLG37",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10365",
+      "authority": "Общинска администрация - Разград",
+      "municipality": {
+        "name": "Разград",
+        "code": "RAZ26",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "04.07.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10364",
+      "authority": "Общинска администрация - Радомир",
+      "municipality": {
+        "name": "Радомир",
+        "code": "PER36",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10363",
+      "authority": "Общинска администрация - Раднево",
+      "municipality": {
+        "name": "Раднево",
+        "code": "SZR27",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10362",
+      "authority": "Общинска администрация - Първомай",
+      "municipality": {
+        "name": "Първомай",
+        "code": "PDV23",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "16.10.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10361",
+      "authority": "Общинска администрация - Провадия",
+      "municipality": {
+        "name": "Провадия",
+        "code": "VAR24",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10360",
+      "authority": "Общинска администрация - Приморско",
+      "municipality": {
+        "name": "Приморско",
+        "code": "BGS27",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10359",
+      "authority": "Общинска администрация - Правец",
+      "municipality": {
+        "name": "Правец",
+        "code": "SFO34",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10358",
+      "authority": "Общинска администрация - Пордим",
+      "municipality": {
+        "name": "Пордим",
+        "code": "PVN27",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "13.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10357",
+      "authority": "Общинска администрация - Попово",
+      "municipality": {
+        "name": "Попово",
+        "code": "TGV24",
+        "oblast": "Търговище",
+        "oblast_code": "TGV",
+        "nuts2": "BG33",
+        "nuts3": "BG334"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10356",
+      "authority": "Общинска администрация - Поморие",
+      "municipality": {
+        "name": "Поморие",
+        "code": "BGS17",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Оставено без разглеждане",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "28.02.2025",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10355",
+      "authority": "Общинска администрация - Полски Тръмбеш",
+      "municipality": {
+        "name": "Полски Тръмбеш",
+        "code": "VTR26",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10354",
+      "authority": "Общинска администрация - Пловдив",
+      "municipality": {
+        "name": "Пловдив",
+        "code": "PDV22",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10353",
+      "authority": "Общинска администрация - Плевен",
+      "municipality": {
+        "name": "Плевен",
+        "code": "PVN24",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Оставено без разглеждане",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "10.10.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10352",
+      "authority": "Общинска администрация - Пирдоп",
+      "municipality": {
+        "name": "Пирдоп",
+        "code": "SFO55",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10351",
+      "authority": "Общинска администрация - Пещера",
+      "municipality": {
+        "name": "Пещера",
+        "code": "PAZ21",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10350",
+      "authority": "Общинска администрация - Петрич",
+      "municipality": {
+        "name": "Петрич",
+        "code": "BLG33",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "13.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10349",
+      "authority": "Общинска администрация - Перущица",
+      "municipality": {
+        "name": "Перущица",
+        "code": "PDV40",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10348",
+      "authority": "Общинска администрация - Перник",
+      "municipality": {
+        "name": "Перник",
+        "code": "PER32",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10347",
+      "authority": "Общинска администрация - Панагюрище",
+      "municipality": {
+        "name": "Панагюрище",
+        "code": "PAZ20",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10346",
+      "authority": "Общинска администрация - Пазарджик",
+      "municipality": {
+        "name": "Пазарджик",
+        "code": "PAZ19",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10345",
+      "authority": "Общинска администрация - Павликени",
+      "municipality": {
+        "name": "Павликени",
+        "code": "VTR22",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10344",
+      "authority": "Общинска администрация - Павел баня",
+      "municipality": {
+        "name": "Павел баня",
+        "code": "SZR24",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10343",
+      "authority": "Общинска администрация - Оряхово",
+      "municipality": {
+        "name": "Оряхово",
+        "code": "VRC31",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 2,
+      "hasResponse": true
+    },
+    {
+      "appId": "10342",
+      "authority": "Общинска администрация - Опан",
+      "municipality": {
+        "name": "Опан",
+        "code": "SZR23",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.02.2025",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10341",
+      "authority": "Общинска администрация - Опака",
+      "municipality": {
+        "name": "Опака",
+        "code": "TGV23",
+        "oblast": "Търговище",
+        "oblast_code": "TGV",
+        "nuts2": "BG33",
+        "nuts3": "BG334"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10340",
+      "authority": "Общинска администрация - Омуртаг",
+      "municipality": {
+        "name": "Омуртаг",
+        "code": "TGV22",
+        "oblast": "Търговище",
+        "oblast_code": "TGV",
+        "nuts2": "BG33",
+        "nuts3": "BG334"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 2,
+      "hasResponse": true
+    },
+    {
+      "appId": "10339",
+      "authority": "Общинска администрация - Ново село",
+      "municipality": {
+        "name": "Ново село",
+        "code": "VID30",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10338",
+      "authority": "Общинска администрация - Нови пазар",
+      "municipality": {
+        "name": "Нови пазар",
+        "code": "SHU22",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10337",
+      "authority": "Общинска администрация - Нова Загора",
+      "municipality": {
+        "name": "Нова Загора",
+        "code": "SLV16",
+        "oblast": "Сливен",
+        "oblast_code": "SLV",
+        "nuts2": "BG34",
+        "nuts3": "BG342"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10336",
+      "authority": "Общинска администрация - Никопол",
+      "municipality": {
+        "name": "Никопол",
+        "code": "PVN21",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10335",
+      "authority": "Общинска администрация - Николаево",
+      "municipality": {
+        "name": "Николаево",
+        "code": "SZR38",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10334",
+      "authority": "Общинска администрация - Никола Козлево",
+      "municipality": {
+        "name": "Никола Козлево",
+        "code": "SHU21",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Частично одобрено",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10333",
+      "authority": "Общинска администрация - Несебър",
+      "municipality": {
+        "name": "Несебър",
+        "code": "BGS15",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10332",
+      "authority": "Общинска администрация - Неделино",
+      "municipality": {
+        "name": "Неделино",
+        "code": "SML18",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10331",
+      "authority": "Общинска администрация - Невестино",
+      "municipality": {
+        "name": "Невестино",
+        "code": "KNL31",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10330",
+      "authority": "Общинска администрация - Мъглиж",
+      "municipality": {
+        "name": "Мъглиж",
+        "code": "SZR22",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "02.09.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10329",
+      "authority": "Общинска администрация - Монтана",
+      "municipality": {
+        "name": "Монтана",
+        "code": "MON29",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10328",
+      "authority": "Общинска администрация - Момчилград",
+      "municipality": {
+        "name": "Момчилград",
+        "code": "KRZ21",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10327",
+      "authority": "Общинска администрация - Мирково",
+      "municipality": {
+        "name": "Мирково",
+        "code": "SFO56",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10326",
+      "authority": "Общинска администрация - Минерални бани",
+      "municipality": {
+        "name": "Минерални бани",
+        "code": "HKV19",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10325",
+      "authority": "Общинска администрация - Мизия",
+      "municipality": {
+        "name": "Мизия",
+        "code": "VRC28",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10324",
+      "authority": "Общинска администрация - Мездра",
+      "municipality": {
+        "name": "Мездра",
+        "code": "VRC27",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10323",
+      "authority": "Общинска администрация - Медковец",
+      "municipality": {
+        "name": "Медковец",
+        "code": "MON26",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10322",
+      "authority": "Общинска администрация - Марица",
+      "municipality": {
+        "name": "Марица",
+        "code": "PDV17",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10321",
+      "authority": "Общинска администрация - Малко Търново",
+      "municipality": {
+        "name": "Малко Търново",
+        "code": "BGS12",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10320",
+      "authority": "Общинска администрация - Макреш",
+      "municipality": {
+        "name": "Макреш",
+        "code": "VID25",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10319",
+      "authority": "Общинска администрация - Маджарово",
+      "municipality": {
+        "name": "Маджарово",
+        "code": "HKV18",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10318",
+      "authority": "Общинска администрация - Мадан",
+      "municipality": {
+        "name": "Мадан",
+        "code": "SML16",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "04.11.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10317",
+      "authority": "Общинска администрация - Лясковец",
+      "municipality": {
+        "name": "Лясковец",
+        "code": "VTR20",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10316",
+      "authority": "Общинска администрация - Любимец",
+      "municipality": {
+        "name": "Любимец",
+        "code": "HKV17",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10315",
+      "authority": "Общинска администрация - Лъки",
+      "municipality": {
+        "name": "Лъки",
+        "code": "PDV15",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10314",
+      "authority": "Общинска администрация - Луковит",
+      "municipality": {
+        "name": "Луковит",
+        "code": "LOV19",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10313",
+      "authority": "Общинска администрация - Лом",
+      "municipality": {
+        "name": "Лом",
+        "code": "MON24",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10312",
+      "authority": "Общинска администрация - Лозница",
+      "municipality": {
+        "name": "Лозница",
+        "code": "RAZ17",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10311",
+      "authority": "Общинска администрация - Ловеч",
+      "municipality": {
+        "name": "Ловеч",
+        "code": "LOV18",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10310",
+      "authority": "Общинска администрация - Летница",
+      "municipality": {
+        "name": "Летница",
+        "code": "LOV17",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10309",
+      "authority": "Общинска администрация - Лесичово",
+      "municipality": {
+        "name": "Лесичово",
+        "code": "PAZ14",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10308",
+      "authority": "Общинска администрация - Левски",
+      "municipality": {
+        "name": "Левски",
+        "code": "PVN16",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10307",
+      "authority": "Общинска администрация - Кюстендил",
+      "municipality": {
+        "name": "Кюстендил",
+        "code": "KNL29",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10306",
+      "authority": "Общинска администрация - Кърджали",
+      "municipality": {
+        "name": "Кърджали",
+        "code": "KRZ16",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10305",
+      "authority": "Общинска администрация - Кула",
+      "municipality": {
+        "name": "Кула",
+        "code": "VID22",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10304",
+      "authority": "Общинска администрация - Куклен",
+      "municipality": {
+        "name": "Куклен",
+        "code": "PDV42",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10303",
+      "authority": "Общинска администрация - Кубрат",
+      "municipality": {
+        "name": "Кубрат",
+        "code": "RAZ16",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10302",
+      "authority": "Общинска администрация - Крушари",
+      "municipality": {
+        "name": "Крушари",
+        "code": "DOB20",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10301",
+      "authority": "Общинска администрация - Крумовград",
+      "municipality": {
+        "name": "Крумовград",
+        "code": "KRZ15",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "13.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10300",
+      "authority": "Общинска администрация - Кричим",
+      "municipality": {
+        "name": "Кричим",
+        "code": "PDV39",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10299",
+      "authority": "Общинска администрация - Криводол",
+      "municipality": {
+        "name": "Криводол",
+        "code": "VRC21",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10298",
+      "authority": "Общинска администрация - Кресна",
+      "municipality": {
+        "name": "Кресна",
+        "code": "BLG28",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10297",
+      "authority": "Общинска администрация - Кочериново",
+      "municipality": {
+        "name": "Кочериново",
+        "code": "KNL27",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10296",
+      "authority": "Общинска администрация - Котел",
+      "municipality": {
+        "name": "Котел",
+        "code": "SLV11",
+        "oblast": "Сливен",
+        "oblast_code": "SLV",
+        "nuts2": "BG34",
+        "nuts3": "BG342"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10295",
+      "authority": "Общинска администрация - Костинброд",
+      "municipality": {
+        "name": "Костинброд",
+        "code": "SFO26",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10294",
+      "authority": "Общинска администрация - Костенец",
+      "municipality": {
+        "name": "Костенец",
+        "code": "SFO25",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10293",
+      "authority": "Общинска администрация - Копривщица",
+      "municipality": {
+        "name": "Копривщица",
+        "code": "SFO24",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10292",
+      "authority": "Общинска администрация - Козлодуй",
+      "municipality": {
+        "name": "Козлодуй",
+        "code": "VRC20",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10291",
+      "authority": "Общинска администрация - Ковачевци",
+      "municipality": {
+        "name": "Ковачевци",
+        "code": "PER22",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10290",
+      "authority": "Общинска администрация - Кнежа",
+      "municipality": {
+        "name": "Кнежа",
+        "code": "PVN39",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10289",
+      "authority": "Общинска администрация - Кирково",
+      "municipality": {
+        "name": "Кирково",
+        "code": "KRZ14",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10288",
+      "authority": "Общинска администрация - Каспичан",
+      "municipality": {
+        "name": "Каспичан",
+        "code": "SHU19",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10287",
+      "authority": "Общинска администрация - Карнобат",
+      "municipality": {
+        "name": "Карнобат",
+        "code": "BGS09",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 2,
+      "hasResponse": true
+    },
+    {
+      "appId": "10286",
+      "authority": "Общинска администрация - Карлово",
+      "municipality": {
+        "name": "Карлово",
+        "code": "PDV13",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10285",
+      "authority": "Общинска администрация - Каолиново",
+      "municipality": {
+        "name": "Каолиново",
+        "code": "SHU18",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10284",
+      "authority": "Общинска администрация - Камено",
+      "municipality": {
+        "name": "Камено",
+        "code": "BGS08",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Неодобрено",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10283",
+      "authority": "Общинска администрация - Калояново",
+      "municipality": {
+        "name": "Калояново",
+        "code": "PDV12",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10282",
+      "authority": "Общинска администрация - Кайнарджа",
+      "municipality": {
+        "name": "Кайнарджа",
+        "code": "SLS15",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Оставено без разглеждане",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "28.01.2025",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10281",
+      "authority": "Общинска администрация - Казанлък",
+      "municipality": {
+        "name": "Казанлък",
+        "code": "SZR12",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10280",
+      "authority": "Общинска администрация - Каварна",
+      "municipality": {
+        "name": "Каварна",
+        "code": "DOB17",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "28.10.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10279",
+      "authority": "Общинска администрация - Ихтиман",
+      "municipality": {
+        "name": "Ихтиман",
+        "code": "SFO20",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10278",
+      "authority": "Общинска администрация - Исперих",
+      "municipality": {
+        "name": "Исперих",
+        "code": "RAZ14",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10277",
+      "authority": "Общинска администрация - Искър",
+      "municipality": {
+        "name": "Искър",
+        "code": "PVN23",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10276",
+      "authority": "Общинска администрация - Иваново",
+      "municipality": {
+        "name": "Иваново",
+        "code": "RSE13",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10275",
+      "authority": "Общинска администрация - Ивайловград",
+      "municipality": {
+        "name": "Ивайловград",
+        "code": "HKV11",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10274",
+      "authority": "Общинска администрация - Златоград",
+      "municipality": {
+        "name": "Златоград",
+        "code": "SML11",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10273",
+      "authority": "Общинска администрация - Златица",
+      "municipality": {
+        "name": "Златица",
+        "code": "SFO47",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10272",
+      "authority": "Общинска администрация - Златарица",
+      "municipality": {
+        "name": "Златарица",
+        "code": "VTR14",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10271",
+      "authority": "Общинска администрация - Земен",
+      "municipality": {
+        "name": "Земен",
+        "code": "PER19",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10270",
+      "authority": "Общинска администрация - Завет",
+      "municipality": {
+        "name": "Завет",
+        "code": "RAZ11",
+        "oblast": "Разград",
+        "oblast_code": "RAZ",
+        "nuts2": "BG32",
+        "nuts3": "BG324"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10269",
+      "authority": "Общинска администрация - Етрополе",
+      "municipality": {
+        "name": "Етрополе",
+        "code": "SFO18",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10268",
+      "authority": "Общинска администрация - Елхово",
+      "municipality": {
+        "name": "Елхово",
+        "code": "JAM07",
+        "oblast": "Ямбол",
+        "oblast_code": "JAM",
+        "nuts2": "BG34",
+        "nuts3": "BG343"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10267",
+      "authority": "Общинска администрация - Елин Пелин",
+      "municipality": {
+        "name": "Елин Пелин",
+        "code": "SFO17",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10266",
+      "authority": "Общинска администрация - Елена",
+      "municipality": {
+        "name": "Елена",
+        "code": "VTR13",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10265",
+      "authority": "Общинска администрация - Дългопол",
+      "municipality": {
+        "name": "Дългопол",
+        "code": "VAR16",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10264",
+      "authority": "Общинска администрация - Дупница",
+      "municipality": {
+        "name": "Дупница",
+        "code": "KNL48",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10263",
+      "authority": "Общинска администрация - Дулово",
+      "municipality": {
+        "name": "Дулово",
+        "code": "SLS10",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10262",
+      "authority": "Общинска администрация - Дряново",
+      "municipality": {
+        "name": "Дряново",
+        "code": "GAB12",
+        "oblast": "Габрово",
+        "oblast_code": "GAB",
+        "nuts2": "BG32",
+        "nuts3": "BG322"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10261",
+      "authority": "Общинска администрация - Драгоман",
+      "municipality": {
+        "name": "Драгоман",
+        "code": "SFO16",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10260",
+      "authority": "Общинска администрация - Доспат",
+      "municipality": {
+        "name": "Доспат",
+        "code": "SML10",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10259",
+      "authority": "Общинска администрация - Долни чифлик",
+      "municipality": {
+        "name": "Долни чифлик",
+        "code": "VAR13",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10258",
+      "authority": "Общинска администрация - Долни Дъбник",
+      "municipality": {
+        "name": "Долни Дъбник",
+        "code": "PVN11",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10257",
+      "authority": "Общинска администрация - Долна Митрополия",
+      "municipality": {
+        "name": "Долна Митрополия",
+        "code": "PVN10",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10256",
+      "authority": "Общинска администрация - Долна баня",
+      "municipality": {
+        "name": "Долна баня",
+        "code": "SFO59",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10255",
+      "authority": "Общинска администрация - Добричка",
+      "municipality": {
+        "name": "Добрич-селска",
+        "code": "DOB15",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10254",
+      "authority": "Общинска администрация - Добрич",
+      "municipality": {
+        "name": "Добрич",
+        "code": "DOB28",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10253",
+      "authority": "Общинска администрация - Димово",
+      "municipality": {
+        "name": "Димово",
+        "code": "VID16",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10252",
+      "authority": "Общинска администрация - Димитровград",
+      "municipality": {
+        "name": "Димитровград",
+        "code": "HKV09",
+        "oblast": "Хасково",
+        "oblast_code": "HKV",
+        "nuts2": "BG42",
+        "nuts3": "BG422"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "12.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10251",
+      "authority": "Общинска администрация - Джебел",
+      "municipality": {
+        "name": "Джебел",
+        "code": "KRZ08",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10250",
+      "authority": "Общинска администрация - Девня",
+      "municipality": {
+        "name": "Девня",
+        "code": "VAR14",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10249",
+      "authority": "Общинска администрация - Девин",
+      "municipality": {
+        "name": "Девин",
+        "code": "SML09",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10248",
+      "authority": "Общинска администрация - Две могили",
+      "municipality": {
+        "name": "Две могили",
+        "code": "RSE08",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10247",
+      "authority": "Общинска администрация - Гърмен",
+      "municipality": {
+        "name": "Гърмен",
+        "code": "BLG13",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10246",
+      "authority": "Общинска администрация - Гълъбово",
+      "municipality": {
+        "name": "Гълъбово",
+        "code": "SZR07",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10245",
+      "authority": "Общинска администрация - Гурково",
+      "municipality": {
+        "name": "Гурково",
+        "code": "SZR37",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "17.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10244",
+      "authority": "Общинска администрация - Гулянци",
+      "municipality": {
+        "name": "Гулянци",
+        "code": "PVN08",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10243",
+      "authority": "Общинска администрация - Грамада",
+      "municipality": {
+        "name": "Грамада",
+        "code": "VID15",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10242",
+      "authority": "Общинска администрация - Гоце Делчев",
+      "municipality": {
+        "name": "Гоце Делчев",
+        "code": "BLG11",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10241",
+      "authority": "Общинска администрация - Горна Оряховица",
+      "municipality": {
+        "name": "Горна Оряховица",
+        "code": "VTR06",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10240",
+      "authority": "Общинска администрация - Горна Малина",
+      "municipality": {
+        "name": "Горна Малина",
+        "code": "SFO10",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10239",
+      "authority": "Общинска администрация - Годеч",
+      "municipality": {
+        "name": "Годеч",
+        "code": "SFO09",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10238",
+      "authority": "Общинска администрация - Главиница",
+      "municipality": {
+        "name": "Главиница",
+        "code": "SLS07",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10237",
+      "authority": "Общинска администрация - Георги Дамяново",
+      "municipality": {
+        "name": "Георги Дамяново",
+        "code": "MON14",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10236",
+      "authority": "Общинска администрация - Генерал Тошево",
+      "municipality": {
+        "name": "Генерал Тошево",
+        "code": "DOB12",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10235",
+      "authority": "Общинска администрация - Габрово",
+      "municipality": {
+        "name": "Габрово",
+        "code": "GAB05",
+        "oblast": "Габрово",
+        "oblast_code": "GAB",
+        "nuts2": "BG32",
+        "nuts3": "BG322"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10234",
+      "authority": "Общинска администрация - Вършец",
+      "municipality": {
+        "name": "Вършец",
+        "code": "MON12",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10233",
+      "authority": "Общинска администрация - Върбица",
+      "municipality": {
+        "name": "Върбица",
+        "code": "SHU10",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10232",
+      "authority": "Общинска администрация - Вълчи дол",
+      "municipality": {
+        "name": "Вълчи дол",
+        "code": "VAR09",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10231",
+      "authority": "Общинска администрация - Вълчедръм",
+      "municipality": {
+        "name": "Вълчедръм",
+        "code": "MON11",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10230",
+      "authority": "Общинска администрация - Враца",
+      "municipality": {
+        "name": "Враца",
+        "code": "VRC10",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10229",
+      "authority": "Общинска администрация - Видин",
+      "municipality": {
+        "name": "Видин",
+        "code": "VID09",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10228",
+      "authority": "Общинска администрация - Ветрино",
+      "municipality": {
+        "name": "Ветрино",
+        "code": "VAR08",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10227",
+      "authority": "Общинска администрация - Ветово",
+      "municipality": {
+        "name": "Ветово",
+        "code": "RSE05",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10226",
+      "authority": "Общинска администрация - Венец",
+      "municipality": {
+        "name": "Венец",
+        "code": "SHU07",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10225",
+      "authority": "Общинска администрация - Велинград",
+      "municipality": {
+        "name": "Велинград",
+        "code": "PAZ08",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10224",
+      "authority": "Общинска администрация - Велико Търново",
+      "municipality": {
+        "name": "Велико Търново",
+        "code": "VTR04",
+        "oblast": "Велико Търново",
+        "oblast_code": "VTR",
+        "nuts2": "BG32",
+        "nuts3": "BG321"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10223",
+      "authority": "Общинска администрация - Велики Преслав",
+      "municipality": {
+        "name": "Велики Преслав",
+        "code": "SHU23",
+        "oblast": "Шумен",
+        "oblast_code": "SHU",
+        "nuts2": "BG33",
+        "nuts3": "BG333"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10222",
+      "authority": "Общинска администрация - Варна",
+      "municipality": {
+        "name": "Варна",
+        "code": "VAR06",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10221",
+      "authority": "Общинска администрация - Бяла Слатина",
+      "municipality": {
+        "name": "Бяла Слатина",
+        "code": "VRC08",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10220",
+      "authority": "Общинска администрация - Бяла",
+      "municipality": {
+        "name": "Бяла",
+        "code": "RSE04",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "24.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10219",
+      "authority": "Общинска администрация - Бяла",
+      "municipality": {
+        "name": "Бяла",
+        "code": "RSE04",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10218",
+      "authority": "Общинска администрация - Бургас",
+      "municipality": {
+        "name": "Бургас",
+        "code": "BGS04",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10217",
+      "authority": "Общинска администрация - Брусарци",
+      "municipality": {
+        "name": "Брусарци",
+        "code": "MON07",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10216",
+      "authority": "Общинска администрация - Брезово",
+      "municipality": {
+        "name": "Брезово",
+        "code": "PDV07",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10215",
+      "authority": "Общинска администрация - Брезник",
+      "municipality": {
+        "name": "Брезник",
+        "code": "PER08",
+        "oblast": "Перник",
+        "oblast_code": "PER",
+        "nuts2": "BG41",
+        "nuts3": "BG414"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10214",
+      "authority": "Общинска администрация - Брегово",
+      "municipality": {
+        "name": "Брегово",
+        "code": "VID06",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10213",
+      "authority": "Общинска администрация - Брацигово",
+      "municipality": {
+        "name": "Брацигово",
+        "code": "PAZ06",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10212",
+      "authority": "Общинска администрация - Братя Даскалови",
+      "municipality": {
+        "name": "Братя Даскалови",
+        "code": "SZR04",
+        "oblast": "Стара Загора",
+        "oblast_code": "SZR",
+        "nuts2": "BG34",
+        "nuts3": "BG344"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10211",
+      "authority": "Общинска администрация - Ботевград",
+      "municipality": {
+        "name": "Ботевград",
+        "code": "SFO07",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10210",
+      "authority": "Общинска администрация - Борово",
+      "municipality": {
+        "name": "Борово",
+        "code": "RSE03",
+        "oblast": "Русе",
+        "oblast_code": "RSE",
+        "nuts2": "BG32",
+        "nuts3": "BG323"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10209",
+      "authority": "Общинска администрация - Борован",
+      "municipality": {
+        "name": "Борован",
+        "code": "VRC05",
+        "oblast": "Враца",
+        "oblast_code": "VRC",
+        "nuts2": "BG31",
+        "nuts3": "BG313"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "25.06.2024",
+      "attachmentCount": 2,
+      "hasResponse": true
+    },
+    {
+      "appId": "10208",
+      "authority": "Общинска администрация - Борино",
+      "municipality": {
+        "name": "Борино",
+        "code": "SML05",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10207",
+      "authority": "Общинска администрация - Болярово",
+      "municipality": {
+        "name": "Болярово",
+        "code": "JAM03",
+        "oblast": "Ямбол",
+        "oblast_code": "JAM",
+        "nuts2": "BG34",
+        "nuts3": "BG343"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10206",
+      "authority": "Общинска администрация - Бойчиновци",
+      "municipality": {
+        "name": "Бойчиновци",
+        "code": "MON04",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10205",
+      "authority": "Общинска администрация - Бойница",
+      "municipality": {
+        "name": "Бойница",
+        "code": "VID03",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10204",
+      "authority": "Общинска администрация - Божурище",
+      "municipality": {
+        "name": "Божурище",
+        "code": "SFO06",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10203",
+      "authority": "Общинска администрация - Бобошево",
+      "municipality": {
+        "name": "Бобошево",
+        "code": "KNL05",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10202",
+      "authority": "Общинска администрация - Бобов дол",
+      "municipality": {
+        "name": "Бобов дол",
+        "code": "KNL04",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10201",
+      "authority": "Общинска администрация - Благоевград",
+      "municipality": {
+        "name": "Благоевград",
+        "code": "BLG03",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "07.04.2025",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10200",
+      "authority": "Общинска администрация - Берковица",
+      "municipality": {
+        "name": "Берковица",
+        "code": "MON02",
+        "oblast": "Монтана",
+        "oblast_code": "MON",
+        "nuts2": "BG31",
+        "nuts3": "BG312"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10199",
+      "authority": "Общинска администрация - Белослав",
+      "municipality": {
+        "name": "Белослав",
+        "code": "VAR04",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10198",
+      "authority": "Общинска администрация - Белоградчик",
+      "municipality": {
+        "name": "Белоградчик",
+        "code": "VID01",
+        "oblast": "Видин",
+        "oblast_code": "VID",
+        "nuts2": "BG31",
+        "nuts3": "BG311"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10197",
+      "authority": "Общинска администрация - Белово",
+      "municipality": {
+        "name": "Белово",
+        "code": "PAZ04",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10196",
+      "authority": "Общинска администрация - Белица",
+      "municipality": {
+        "name": "Белица",
+        "code": "BLG02",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10195",
+      "authority": "Общинска администрация - Белене",
+      "municipality": {
+        "name": "Белене",
+        "code": "PVN03",
+        "oblast": "Плевен",
+        "oblast_code": "PVN",
+        "nuts2": "BG31",
+        "nuts3": "BG314"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10194",
+      "authority": "Общинска администрация - Батак",
+      "municipality": {
+        "name": "Батак",
+        "code": "PAZ03",
+        "oblast": "Пазарджик",
+        "oblast_code": "PAZ",
+        "nuts2": "BG42",
+        "nuts3": "BG423"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10193",
+      "authority": "Общинска администрация - Банско",
+      "municipality": {
+        "name": "Банско",
+        "code": "BLG01",
+        "oblast": "Благоевград",
+        "oblast_code": "BLG",
+        "nuts2": "BG41",
+        "nuts3": "BG413"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "07.01.2025",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10192",
+      "authority": "Общинска администрация - Баните",
+      "municipality": {
+        "name": "Баните",
+        "code": "SML02",
+        "oblast": "Смолян",
+        "oblast_code": "SML",
+        "nuts2": "BG42",
+        "nuts3": "BG424"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10191",
+      "authority": "Общинска администрация - Балчик",
+      "municipality": {
+        "name": "Балчик",
+        "code": "DOB03",
+        "oblast": "Добрич",
+        "oblast_code": "DOB",
+        "nuts2": "BG33",
+        "nuts3": "BG332"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "05.09.2024",
+      "attachmentCount": 2,
+      "hasResponse": true
+    },
+    {
+      "appId": "10190",
+      "authority": "Общинска администрация - Асеновград",
+      "municipality": {
+        "name": "Асеновград",
+        "code": "PDV01",
+        "oblast": "Пловдив",
+        "oblast_code": "PDV",
+        "nuts2": "BG42",
+        "nuts3": "BG421"
+      },
+      "status": "Прието на платформата",
+      "statusClass": "other",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10189",
+      "authority": "Общинска администрация - Ардино",
+      "municipality": {
+        "name": "Ардино",
+        "code": "KRZ02",
+        "oblast": "Кърджали",
+        "oblast_code": "KRZ",
+        "nuts2": "BG42",
+        "nuts3": "BG425"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10188",
+      "authority": "Общинска администрация - Априлци",
+      "municipality": {
+        "name": "Априлци",
+        "code": "LOV02",
+        "oblast": "Ловеч",
+        "oblast_code": "LOV",
+        "nuts2": "BG31",
+        "nuts3": "BG315"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10187",
+      "authority": "Общинска администрация - Антоново",
+      "municipality": {
+        "name": "Антоново",
+        "code": "TGV02",
+        "oblast": "Търговище",
+        "oblast_code": "TGV",
+        "nuts2": "BG33",
+        "nuts3": "BG334"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "19.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10186",
+      "authority": "Общинска администрация - Антон",
+      "municipality": {
+        "name": "Антон",
+        "code": "SFO54",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Непроизнесени в срок",
+      "statusClass": "overdue",
+      "submitDate": "10.06.2024",
+      "responseDate": "",
+      "attachmentCount": 0,
+      "hasResponse": false
+    },
+    {
+      "appId": "10185",
+      "authority": "Общинска администрация - Алфатар",
+      "municipality": {
+        "name": "Алфатар",
+        "code": "SLS01",
+        "oblast": "Силистра",
+        "oblast_code": "SLS",
+        "nuts2": "BG32",
+        "nuts3": "BG325"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10183",
+      "authority": "Общинска администрация - Аксаково",
+      "municipality": {
+        "name": "Аксаково",
+        "code": "VAR02",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "21.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10182",
+      "authority": "Общинска администрация - Айтос",
+      "municipality": {
+        "name": "Айтос",
+        "code": "BGS01",
+        "oblast": "Бургас",
+        "oblast_code": "BGS",
+        "nuts2": "BG34",
+        "nuts3": "BG341"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "14.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10181",
+      "authority": "Общинска администрация - Аврен",
+      "municipality": {
+        "name": "Аврен",
+        "code": "VAR01",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "18.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10619",
+      "authority": "Общинска администрация - Ветрино",
+      "municipality": {
+        "name": "Ветрино",
+        "code": "VAR08",
+        "oblast": "Варна",
+        "oblast_code": "VAR",
+        "nuts2": "BG33",
+        "nuts3": "BG331"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    },
+    {
+      "appId": "10680",
+      "authority": "Общинска администрация - Златица",
+      "municipality": {
+        "name": "Златица",
+        "code": "SFO47",
+        "oblast": "София",
+        "oblast_code": "SFO",
+        "nuts2": "BG41",
+        "nuts3": "BG412"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "28.06.2024",
+      "attachmentCount": 1,
+      "hasResponse": true
+    },
+    {
+      "appId": "10623",
+      "authority": "Общинска администрация - Кочериново",
+      "municipality": {
+        "name": "Кочериново",
+        "code": "KNL27",
+        "oblast": "Кюстендил",
+        "oblast_code": "KNL",
+        "nuts2": "BG41",
+        "nuts3": "BG415"
+      },
+      "status": "Одобрено",
+      "statusClass": "approved",
+      "submitDate": "10.06.2024",
+      "responseDate": "20.06.2024",
+      "attachmentCount": 0,
+      "hasResponse": true
+    }
+  ]
+}
